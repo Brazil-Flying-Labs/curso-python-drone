@@ -26,9 +26,11 @@ numeros = [10, 20, 30, 40, 50]
 
 # Acessando o primeiro elemento da lista
 primeiro = numeros[0]  # Retorna 10
+print(primeiro)  # Retorna 10
 
 # Acessando o terceiro elemento da lista
-terceiro = numeros[2]  # Retorna 30
+terceiro = numeros[2]  
+print(terceiro)  # Retorna 30
 ```
 
 Vamos armazenar os nomes de alguns amigos em uma lista e depois exibir esses nomes um de cada vez.
@@ -98,28 +100,41 @@ Podemos modificar os elementos de uma lista atribuindo novos valores a eles. Tam
 numeros = [1, 2, 3]
 
 # Modificando o segundo elemento
-numeros[1] = 10  # Agora numeros é [1, 10, 3]
+numeros[1] = 10  
+print(numeros)  # Agora numeros é [1, 10, 3]
 
 # Adicionando um novo elemento ao final da lista
-numeros.append(4)  # Agora numeros é [1, 10, 3, 4]
+numeros.append(4)  
+print(numeros)  # Agora numeros é [1, 10, 3, 4]
 
 # Inserindo um novo elemento na segunda posição
-numeros.insert(1, 5)  # Agora numeros é [1, 5, 10, 3, 4]
+numeros.insert(1, 5)  
+print(numeros)  # Agora numeros é [1, 5, 10, 3, 4]
 ```
 
 ### Removendo elementos
 
-Para remover elementos de uma lista, podemos utilizar o método `pop()` para remover um elemento específico pelo seu índice, ou o método `remove()` para remover um elemento pelo seu valor. Veja como funciona:
+Para remover elementos de uma lista, podemos utilizar o método `pop()` para remover um elemento específico pelo seu índice, o método `remove()` para remover um elemento pelo seu valor, ou até mesmo o método `pop()` sem argumento para remover o último elemento da lista. Veja como funciona:
 
 ```python
-numeros = [1, 2, 3, 4]
+poligonos = ["triângulo", 5, "quadrado", "pentágono", "hexágono"]
 
-# Removendo o segundo elemento
-numeros.pop(1)  # Agora numeros é [1, 3, 4]
+# Removendo o terceiro elemento utilizando pop()
+poligonos.pop(2)  
+print(poligonos)  # Agora poligonos é ['triângulo', 5, 'pentágono', 'hexágono']
 
-# Removendo o elemento 3
-numeros.remove(3)  # Agora numeros é [1, 4]
+# Removendo o número inteiro 5 da lista, utilizando remove()
+poligonos.remove(5)  
+print(poligonos)  # Agora poligonos é ['triângulo', 'pentágono', 'hexágono']
+
+# Removendo o último elemento utilizando pop() sem argumento
+poligonos.pop()  
+print(poligonos)  # Agora poligonos é ['triângulo', 'pentágono']
 ```
+
+No exemplo fornecido, o comando `poligonos.remove(5)` remove o elemento 5 da lista pelo seu valor, não pelo seu índice. É importante distinguir entre remover um elemento pelo seu valor e remover um elemento pelo seu índice. Se quiséssemos remover o elemento 5 pelo seu índice, deveríamos usar poligonos.pop(1), pois 1 é o índice na lista para o elemento 5.
+
+O método `pop()` sem argumento remove e retorna o último elemento da lista. Isso pode ser útil quando queremos remover o último item de uma lista e não nos importamos com o valor do item removido. 
 
 ## Ordenando uma lista
 
