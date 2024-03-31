@@ -128,6 +128,18 @@ saudacao("João")  # Saída: Olá, João!
 
 Além disso, a capacidade de definir valores padrão para os parâmetros de uma função simplifica a chamada da função, pois nem sempre é necessário fornecer todos os argumentos ao chamá-la. Isso pode tornar o código mais legível e reduzir a quantidade de código redundante.
 
+### Faça agora mesmo !
+
+#### Exercício 7.1: 
+
+Neste exercício, você será desafiado a criar uma função em Python chamada `calcular_area_retangulo`. Esta função terá a importante tarefa de calcular a área de um retângulo com base e altura fornecidas como argumentos.
+
+Para isso, você precisará lembrar que a fórmula para calcular a área de um retângulo é simplesmente multiplicar a base pela altura. Portanto, sua função deve seguir essa lógica para retornar o valor correto da área.
+
+Ao criar a função, você deve definir dois parâmetros: `base` e `altura`, que representarão as dimensões do retângulo. Dentro da função, você irá multiplicar esses dois valores para obter a área total do retângulo.
+
+Uma vez que a função esteja definida, você pode testá-la com diferentes valores de base e altura para garantir que esteja funcionando corretamente. Lembre-se de que a função deve ser capaz de lidar com números inteiros ou decimais, então teste-a com uma variedade de valores para garantir sua robustez.
+
 ### Passando uma Lista como Argumento
 
 Em Python, você pode passar não apenas valores individuais, mas também estruturas de dados complexas, como listas, como argumentos para uma função. Isso oferece uma grande flexibilidade, permitindo que você trabalhe com conjuntos de dados arbitrariamente grandes e dinâmicos dentro das suas funções.
@@ -166,6 +178,26 @@ Neste exemplo, definimos uma função chamada `dobrar_elementos` que recebe uma 
 É importante ter em mente que, ao passar uma lista como argumento, a função não cria uma cópia da lista. Em vez disso, ela trabalha com a própria lista original. Portanto, qualquer modificação feita na lista dentro da função afetará a lista original fora da função.
 
 Note também que o nome do parâmetro na definição da função não precisa ser o mesmo que o nome da lista passada como argumento. 
+
+### Faça agora mesmo !
+
+#### Exercício 7.2: 
+
+Imagine que você é um programador e está desenvolvendo um software para ajudar os alunos a calcular suas médias em diferentes disciplinas. Sua tarefa é criar uma função em Python chamada `calcular_media` que aceita uma lista de notas como entrada e retorna a média dessas notas.
+
+Você pode começar definindo a estrutura da função e, em seguida, implementar o código dentro dela para calcular a média das notas.
+
+Lembre-se de que a função deve ser capaz de lidar com qualquer quantidade de notas, então certifique-se de testá-la com diferentes números de notas.
+
+Aqui estão algumas dicas que podem ajudar nesse exercício:
+
+**sum():** A função `sum()` pode ser usada para somar todos os elementos de uma lista. Isso será útil para calcular a soma total das notas.
+
+**len():** A função `len()` retorna o número de elementos em uma lista. Você pode usá-la para contar quantas notas foram dadas, o que será necessário para calcular a média.
+
+**Operadores aritméticos:** Você precisará usar operadores aritméticos básicos, como adição (+) e divisão (/), para calcular a média das notas.
+
+Depois de criar a função, teste-a com diferentes conjuntos de notas para garantir que esteja funcionando corretamente. Por exemplo, você pode usar as notas de um aluno em diferentes disciplinas e verificar se a função retorna a média correta.
 
 ### Armazenando Funções em Módulos
 
@@ -225,3 +257,23 @@ print(resultado)  # Saída: 25
 
 Renomear funções ao importar oferece flexibilidade e clareza ao código. Essa prática é especialmente útil como mais uma forma de evitar conflitos de nomes entre as funções importadas e as funções já definidas em seu código.
 
+### Faça agora mesmo !
+
+#### Exercício 7.3: 
+
+Neste exercício, você vai organizar as funções criadas nos exercícios 7.1 e 7.2 em um módulo Python chamado `minhas_funcoes.py`. Depois, você vai importar as duas funções desse módulo e criar um código para chamá-las.
+
+Para começar, copie as funções que você desenvolveu nos exercícios 7.1 e 7.2 para um arquivo Python chamado `minhas_funcoes.py`. Certifique-se de que cada função esteja definida corretamente no arquivo.
+
+Depois de organizar as funções em um módulo, você vai criar um novo arquivo Python onde irá importar essas funções. Utilize a sintaxe `from minhas_funcoes import nome_da_funcao` para importar cada função individualmente.
+
+Por fim, escreva um código que chama ambas as funções importadas, passando os argumentos necessários.
+
+Com isso, você estará organizando suas funções em um módulo e aprendendo a importá-las e utilizá-las em um código Python separado. Isso facilitará a reutilização das suas funções em diferentes partes do seu projeto!
+
+### Exercícios práticos
+
+Agora é hora de praticar o que aprendemos! Aqui estão alguns exercícios para você fazer para testar seus conhecimentos.
+
+#### Exercício 3.5:
+Escreva um programa Python que crie uma lista chamada "frutas" contendo os seguintes elementos: "maçã", "banana", "laranja", "uva" e "abacaxi". Em seguida, imprima a lista na tela. 
