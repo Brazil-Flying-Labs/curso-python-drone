@@ -1,8 +1,8 @@
-Introdução às Listas
+## Encontro 3 - Introdução às Listas
 
-As listas são estruturas de dados versáteis e poderosas que nos permitem armazenar e manipular coleções de elementos de forma eficiente. 
+Hoje vamos explorar um dos conceitos mais importantes da linguagem Python: listas. As listas são estruturas de dados fundamentais que permitem armazenar coleções de elementos de forma ordenada e acessível. Durante esta aula, vamos aprender sobre o que são listas, como adicionar e remover elementos, ordenar uma lista e fatiar uma lista. Além disso, vamos praticar com alguns exercícios práticos para reforçar o que aprendemos.
 
-## O que são listas?
+### O que são listas?
 
 Uma lista em Python é uma coleção ordenada de elementos. Esses elementos podem ser de diferentes tipos, como números, strings, ou até mesmo outras listas. As listas são definidas utilizando colchetes `[]` e os elementos são separados por vírgulas. Vamos ver alguns exemplos:
 
@@ -17,7 +17,7 @@ nomes = ['Alice', 'Bob', 'Carol', 'David']
 misturada = [1, 'dois', 3.0, 'quatro']
 ```
 
-## Acessando os elementos de uma lista
+### Acessando os elementos de uma lista
 
 Os elementos de uma lista são acessados utilizando índices. É importante lembrar que os índices em Python começam em 0, não em 1. Veja como acessar os elementos de uma lista:
 
@@ -31,7 +31,7 @@ primeiro = numeros[0]  # Retorna 10
 terceiro = numeros[2]  # Retorna 30
 ```
 
-## Modificando e adicionando elementos
+### Modificando e adicionando elementos
 
 Podemos modificar os elementos de uma lista atribuindo novos valores a eles. Também podemos adicionar novos elementos utilizando o método `append()` ou inserindo elementos em uma posição específica utilizando o método `insert()`. Veja alguns exemplos:
 
@@ -48,7 +48,7 @@ numeros.append(4)  # Agora numeros é [1, 10, 3, 4]
 numeros.insert(1, 5)  # Agora numeros é [1, 5, 10, 3, 4]
 ```
 
-## Removendo elementos
+### Removendo elementos
 
 Para remover elementos de uma lista, podemos utilizar o método `pop()` para remover um elemento específico pelo seu índice, ou o método `remove()` para remover um elemento pelo seu valor. Veja como funciona:
 
@@ -64,19 +64,25 @@ numeros.remove(3)  # Agora numeros é [1, 4]
 
 ## Ordenando uma lista
 
-É possível ordenar os elementos de uma lista utilizando os métodos `sort()` ou `sorted()`. O método `sort()` ordena a lista permanentemente, enquanto o método `sorted()` retorna uma nova lista ordenada temporariamente. Veja como usar:
+É possível ordenar os elementos de uma lista utilizando os métodos `sort()` ou `sorted()`. O método `sort()` ordena a lista permanentemente em ordem crescente por padrão, enquanto o método `sorted()` retorna uma nova lista ordenada temporariamente. Para ordenar em ordem decrescente, podemos passar o argumento `reverse=True` para ambos os métodos. Veja como usar:
 
 ```python
 numeros = [5, 3, 1, 4, 2]
 
-# Ordenando a lista permanentemente
+# Ordenando a lista permanentemente em ordem crescente
 numeros.sort()  # Agora numeros é [1, 2, 3, 4, 5]
 
-# Ordenando a lista temporariamente
+# Ordenando a lista permanentemente em ordem decrescente
+numeros.sort(reverse=True)  # Agora numeros é [5, 4, 3, 2, 1]
+
+# Ordenando a lista temporariamente em ordem crescente
 ordenados = sorted(numeros)  # Ordenados é [1, 2, 3, 4, 5]
+
+# Ordenando a lista temporariamente em ordem decrescente
+ordenados_decrescente = sorted(numeros, reverse=True)  # Ordenados é [5, 4, 3, 2, 1]
 ```
 
-## Fatiando uma lista
+### Fatiando uma lista
 
 Podemos fatiar uma lista para obter uma parte dela. Isso é feito especificando um intervalo de índices utilizando a sintaxe `[inicio:fim]`. Veja como funciona:
 
@@ -90,16 +96,23 @@ primeiros = numeros[:3]  # Retorna [1, 2, 3]
 ultimos = numeros[2:]  # Retorna [3, 4, 5]
 ```
 
-## Exercícios práticos
+### Exercícios práticos
 
 Agora é hora de praticar o que aprendemos! Aqui estão alguns exercícios para você fazer como homework:
 
-1. Escreva um programa Python que crie uma lista de números pares de 0 a 10 e imprima-a na tela.
-2. Escreva um programa que peça ao usuário para digitar três nomes e os adicione a uma lista. Em seguida, ordene a lista em ordem alfabética e imprima-a.
-3. Escreva um programa que remova o segundo elemento de uma lista e imprima-a na tela.
-4. Escreva um programa que receba uma lista de números e retorne uma nova lista com apenas os números pares.
-5. Escreva um programa que pergunte ao usuário quantos números ele deseja adicionar a uma lista e, em seguida, peça para ele digitar esses números. Depois, ordene a lista em ordem crescente e imprima-a.
-6. Escreva um programa que receba uma lista de palavras e imprima uma lista contendo o comprimento de cada palavra.
-7. Escreva um programa que pergunte ao usuário para digitar uma lista de números e, em seguida, remova todos os números repetidos e imprima a lista resultante.
+#### Exercício 3.1:
+Escreva um programa Python que crie uma lista chamada "frutas" contendo os seguintes elementos: "maçã", "banana", "laranja", "uva" e "abacaxi". Em seguida, imprima a lista na tela. 
+
+#### Exercício 3.2:
+Modifique o programa anterior para adicionar uma fruta à lista e também remova uma fruta existente. Após cada operação, imprima a lista atualizada na tela.
+ 
+#### Exercício 3.3:
+Crie uma lista de números inteiros aleatórios. Em seguida, ordene a lista em ordem crescente e imprima-a. Depois, fatie a lista para imprimir apenas os três primeiros elementos e os três últimos elementos.
+
+#### Exercício 3.4:
+Escreva um programa que peça ao usuário para digitar três nomes e os adicione a uma lista. Em seguida, ordene a lista em ordem alfabética e imprima-a.
+
+#### Exercício 3.5:
+Escreva um programa que crie uma lista com cinco palavras e imprima o comprimento de cada palavra.
 
 Lembre-se de praticar esses exercícios para fortalecer seu conhecimento sobre listas em Python. Se tiver alguma dúvida, não hesite em perguntar!
