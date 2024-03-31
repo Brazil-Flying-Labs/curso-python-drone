@@ -31,6 +31,40 @@ primeiro = numeros[0]  # Retorna 10
 terceiro = numeros[2]  # Retorna 30
 ```
 
+Vamos armazenar os nomes de alguns amigos em uma lista e depois exibir esses nomes um de cada vez.
+
+```python
+# Criando uma lista de nomes de amigos
+amigos = ["João", "Maria", "Pedro", "Ana", "Carlos"]
+
+# Exibindo o nome de cada amigo um de cada vez
+print("Nomes dos amigos:")
+print(amigos[0])
+print(amigos[1])
+print(amigos[2])
+print(amigos[3])
+print(amigos[4])
+```
+
+Neste exemplo, criamos uma lista chamada `amigos` contendo os nomes de alguns amigos. Em seguida, acessamos cada elemento da lista individualmente utilizando os índices `[0]`, `[1]`, `[2]`, `[3]` e `[4]`, e imprimimos o nome de cada amigo separadamente. Isso nos permite exibir cada nome individualmente, em linhas separadas.
+
+Podemos também utilizar a lista de amigos criada anteriormente e enviar uma mensagem personalizada para cada um deles.
+
+```python
+# Criando uma lista de nomes de amigos
+amigos = ["João", "Maria", "Pedro", "Ana", "Carlos"]
+
+# Enviando uma mensagem personalizada para cada amigo
+print("Mensagens para os amigos:")
+print("Olá, " + amigos[0] + "! Espero que você esteja bem.")
+print("Oi, " + amigos[1] + "! Tenha um ótimo dia!")
+print("Olá, " + amigos[2] + "! Como tem passado?")
+print("Oi, " + amigos[3] + "! Estou pensando em você.")
+print("Olá, " + amigos[4] + "! Vamos marcar algo em breve?")
+```
+
+Neste exemplo, utilizamos a lista `amigos` contendo os nomes de alguns amigos. Em seguida, acessamos cada elemento da lista individualmente utilizando os índices `[0]`, `[1]`, `[2]`, `[3]` e `[4]`, e imprimimos uma mensagem personalizada para cada amigo utilizando o método de formatação de string f-string. Isso nos permite enviar uma mensagem personalizada para cada amigo, sem a necessidade de um loop `for`.
+
 ### Modificando e adicionando elementos
 
 Podemos modificar os elementos de uma lista atribuindo novos valores a eles. Também podemos adicionar novos elementos utilizando o método `append()` ou inserindo elementos em uma posição específica utilizando o método `insert()`. Veja alguns exemplos:
