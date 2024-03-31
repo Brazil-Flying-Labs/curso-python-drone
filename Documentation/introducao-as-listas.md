@@ -204,23 +204,27 @@ Certifique-se de que os nomes estejam corretamente ordenados em ordem alfabétic
 
 Você descobriu de última hora que o local alugado para o jantar permite apenas 5 pessoas, e você precisa remover duas pessoas da sua lista de convidados. No entanto, você quer fazer isso sem parecer indelicado. Decidiu-se que a maneira mais justa de fazer isso é remover as últimas pessoas da lista, pela ordem alfabética, ou seja, as duas últimas da lista. Sua tarefa é usar o fatiamento de lista para remover essas duas últimas pessoas da sua lista de amigos e, em seguida, imprimir a lista atualizada para verificar as alterações.
 
+#### Exercício 3.4:
+
+Apesar de todos os preparativos, um de seus amigos avisou de última hora que não conseguirá comparecer ao jantar. Você precisa remover esse amigo da lista e inserir outra pessoa na posição correta na lista em ordem alfabética, para evitar a necessidade de reordenar a lista inteira. Sua tarefa é usar métodos de manipulação de lista para realizar essa operação e, em seguida, imprimir a lista atualizada para verificar as alterações.
+
 ### Exercícios práticos
 
 Agora é hora de praticar o que aprendemos! Aqui estão alguns exercícios para você fazer como homework:
 
-#### Exercício 3.4:
+#### Exercício 3.5:
 Escreva um programa Python que crie uma lista chamada "frutas" contendo os seguintes elementos: "maçã", "banana", "laranja", "uva" e "abacaxi". Em seguida, imprima a lista na tela. 
 
-#### Exercício 3.5:
+#### Exercício 3.6:
 Modifique o programa anterior para adicionar uma fruta à lista e também remova uma fruta existente. Após cada operação, imprima a lista atualizada na tela.
  
-#### Exercício 3.6:
+#### Exercício 3.7:
 Crie uma lista de números inteiros aleatórios. Em seguida, ordene a lista em ordem crescente e imprima-a. Depois, fatie a lista para imprimir apenas os três primeiros elementos e os três últimos elementos.
 
-#### Exercício 3.7:
+#### Exercício 3.8:
 Escreva um programa que peça ao usuário para digitar três nomes e os adicione a uma lista. Em seguida, ordene a lista em ordem alfabética e imprima-a.
 
-#### Exercício 3.8:
+#### Exercício 3.9:
 Escreva um programa que crie uma lista com cinco palavras e imprima o comprimento de cada palavra.
 
 Lembre-se de praticar esses exercícios para fortalecer seu conhecimento sobre listas em Python. Se tiver alguma dúvida, não hesite em perguntar!
