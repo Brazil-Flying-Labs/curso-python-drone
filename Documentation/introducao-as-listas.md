@@ -56,14 +56,39 @@ amigos = ["João", "Maria", "Pedro", "Ana", "Carlos"]
 
 # Enviando uma mensagem personalizada para cada amigo
 print("Mensagens para os amigos:")
-print("Olá, " + amigos[0] + "! Espero que você esteja bem.")
+print("Olá, " + amigos[0] + ", espero que você esteja bem.")
 print("Oi, " + amigos[1] + "! Tenha um ótimo dia!")
-print("Olá, " + amigos[2] + "! Como tem passado?")
-print("Oi, " + amigos[3] + "! Estou pensando em você.")
+print("Olá, " + amigos[2] + ", como tem passado?")
+print("Oi, " + amigos[3] + " estou pensando em você.")
 print("Olá, " + amigos[4] + "! Vamos marcar algo em breve?")
 ```
 
-Neste exemplo, utilizamos a lista `amigos` contendo os nomes de alguns amigos. Em seguida, acessamos cada elemento da lista individualmente utilizando os índices `[0]`, `[1]`, `[2]`, `[3]` e `[4]`, e imprimimos uma mensagem personalizada para cada amigo utilizando o método de formatação de string f-string. Isso nos permite enviar uma mensagem personalizada para cada amigo, sem a necessidade de um loop `for`.
+Neste exemplo, utilizamos a lista amigos contendo os nomes de alguns amigos. Em seguida, acessamos cada elemento da lista individualmente utilizando os índices [0], [1], [2], [3] e [4], e concatenamos as strings utilizando o operador + para enviar uma mensagem personalizada para cada amigo. Isso nos permite enviar uma mensagem personalizada para cada amigo.
+
+#### Tente você agora
+
+Imagine que você adora veículos e está criando uma lista para representar diferentes exemplos de carros ou motos que você gostaria de possuir um dia. Sua tarefa é criar uma lista chamada `veiculos_favoritos` e preenchê-la com vários exemplos de veículos dos quais você gosta.
+
+Instruções:
+
+1. Crie uma lista chamada `veiculos_favoritos` e preencha-a com pelo menos cinco exemplos de carros ou motos que você admira ou gostaria de possuir no futuro.
+
+2. Utilize sua lista para exibir uma série de declarações sobre esses veículos. Por exemplo, "Gostaria de ter um carro da marca Tesla" ou "Adoraria pilotar uma moto da marca Harley-Davidson".
+
+3. Certifique-se de usar frases completas e corretamente formatadas para cada declaração, utilizando a formatação de string adequada para inserir os nomes dos veículos na frase.
+
+### Exemplo de Saída:
+
+```
+Lista de Veículos Favoritos:
+1. Gostaria de ter um carro da marca Tesla.
+2. Adoraria pilotar uma moto da marca Harley-Davidson.
+3. Sonho em dirigir um carro da marca Ferrari.
+4. Meu objetivo é ter uma moto da marca Ducati.
+5. Seria incrível ter um carro da marca Lamborghini.
+```
+
+Lembre-se de ser criativo ao escolher os veículos para sua lista e divirta-se imaginando as experiências que você gostaria de ter com eles!
 
 ### Modificando e adicionando elementos
 
