@@ -79,7 +79,7 @@ Instruções:
 
 3. Certifique-se de usar frases completas e corretamente formatadas para cada declaração, utilizando a formatação de string adequada para inserir os nomes dos veículos na frase.
 
-### Exemplo de Saída:
+Exemplo de Saída:
 
 ```
 Lista de Veículos Favoritos:
