@@ -67,6 +67,8 @@ print("Olá, " + amigos[4] + "! Vamos marcar algo em breve?")
 
 Neste exemplo, utilizamos a lista amigos contendo os nomes de alguns amigos. Em seguida, acessamos cada elemento da lista individualmente utilizando os índices [0], [1], [2], [3] e [4], e concatenamos as strings utilizando o operador + para enviar uma mensagem personalizada para cada amigo. Isso nos permite enviar uma mensagem personalizada para cada amigo.
 
+### Faça agora mesmo !
+
 #### Exercício 3.1:
 
 Imagine que você adora veículos e está criando uma lista para representar diferentes exemplos de carros ou motos que você gostaria de possuir um dia. Sua tarefa é criar uma lista chamada `veiculos_favoritos` e preenchê-la com vários exemplos de veículos dos quais você gosta.
@@ -193,6 +195,8 @@ print(pensadores_matematica)  # A lista de pensadores_matematica continua sendo 
 Este código demonstra como utilizar o operador de fatiamento : em listas em Python. Primeiro, uma lista de nomes de pensadores da matemática é criada. Em seguida, diferentes fatias da lista original são criadas e impressas, mostrando como acessar os primeiros três elementos, os últimos três elementos e uma parte do meio da lista. Note que, apesar de criar novas variáveis com as fatias, a lista original permanece inalterada.
 
 Note que quando utilizamos o operador de fatiamento `[:]` em uma lista, o segundo índice após os dois pontos não é incluído no resultado. Por exemplo, ao obter os três primeiros pensadores de uma lista, estamos acessando os elementos com índices 0, 1 e 2 da lista, e não incluímos o índice 3. Da mesma forma, ao pegar uma parte do meio da lista, do segundo até o quarto elemento, inclusive, o último elemento não é incluído no resultado. Isso se deve ao fato de que o operador de fatiamento define um intervalo semiaberto, onde o último elemento especificado não é incluído. Essa convenção é adotada para facilitar a manipulação de intervalos e evitar ambiguidades durante a operação de fatiamento de listas.
+
+### Faça agora mesmo !
 
 #### Exercício 3.2:
 
