@@ -226,7 +226,7 @@ Além disso, as leis de Newton são essenciais para entender fenômenos naturais
 
 ### Exercícios práticos
 
-Agora é hora de praticar o que aprendemos! Aqui estão alguns exercícios para você fazer como homework:
+Agora é hora de praticar o que aprendemos! Aqui estão alguns exercícios para você fazer para testar seus conhecimentos.
 
 #### Exercício 3.5:
 Escreva um programa Python que crie uma lista chamada "frutas" contendo os seguintes elementos: "maçã", "banana", "laranja", "uva" e "abacaxi". Em seguida, imprima a lista na tela. 
