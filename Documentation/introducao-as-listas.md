@@ -173,23 +173,22 @@ Podemos fatiar uma lista para obter uma parte dela. Isso é feito especificando 
 ```python
 # Criando uma lista de nomes de pensadores da matemática
 pensadores_matematica = ["Euler", "Gauss", "Newton", "Descartes", "Fermat"]
-
 print(pensadores_matematica)  # A lista original é ["Euler", "Gauss", "Newton", "Descartes", "Fermat"]
 
 # Obtendo os três primeiros pensadores
 primeiros = pensadores_matematica[:3]  
 print(primeiros)  # Retorna ["Euler", "Gauss", "Newton"]
-print(pensadores_matematica)  # A lista de pensadores_matematica continua sendo ["Euler", "Gauss", "Newton", "Descartes", "Fermat"]
+print(pensadores_matematica)  # A lista original continua sendo ["Euler", "Gauss", "Newton", "Descartes", "Fermat"]
 
 # Obtendo os três últimos pensadores
 ultimos = pensadores_matematica[2:]  
 print(ultimos)  # Retorna ["Newton", "Descartes", "Fermat"]
-print(pensadores_matematica)  # A lista de pensadores_matematica continua sendo ["Euler", "Gauss", "Newton", "Descartes", "Fermat"]
+print(pensadores_matematica)  # A lista original continua sendo ["Euler", "Gauss", "Newton", "Descartes", "Fermat"]
 
 # Obtendo parte do meio da lista (do segundo até o quarto elemento, inclusive)
 meio = pensadores_matematica[1:4]  
 print(meio)  # Retorna ["Gauss", "Newton", "Descartes"]
-print(pensadores_matematica)  # A lista de pensadores_matematica continua sendo ["Euler", "Gauss", "Newton", "Descartes", "Fermat"]
+print(pensadores_matematica)  # A lista original continua sendo ["Euler", "Gauss", "Newton", "Descartes", "Fermat"]
 ```
 
 Este código demonstra como utilizar o operador de fatiamento : em listas em Python. Primeiro, uma lista de nomes de pensadores da matemática é criada. Em seguida, diferentes fatias da lista original são criadas e impressas, mostrando como acessar os primeiros três elementos, os últimos três elementos e uma parte do meio da lista. Note que, apesar de criar novas variáveis com as fatias, a lista original permanece inalterada.
