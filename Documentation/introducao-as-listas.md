@@ -223,8 +223,6 @@ Essa lei, que descreve como os corpos se atraem uns aos outros com uma força di
 
 Embora a história da maçã seja muitas vezes romantizada e simplificada, ela nos lembra do poder da observação e da curiosidade. A capacidade de Newton de extrair uma grande verdade científica de um evento tão mundano é um testemunho de sua genialidade e do papel crucial que a serendipidade desempenha na ciência.
 
-Portanto, ao olharmos para trás na história de Isaac Newton, não apenas o vemos como um gigante intelectual, mas também como alguém capaz de encontrar inspiração em lugares inesperados e transformar simples observações em descobertas que mudaram o curso da história da humanidade. A lenda da maçã nos lembra que grandes momentos de insight podem surgir nos momentos mais ordinários, se estivermos abertos para eles.
-
 ![A Lenda da Maçã e a Descoberta de Newton](/Images/isaac-newton-apple.png "A Lenda da Maçã e a Descoberta de Newton")
 
 ### Exercícios práticos
