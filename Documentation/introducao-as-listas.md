@@ -223,7 +223,7 @@ Hoje, as contribuições de Newton estão presentes em praticamente todas as esf
 
 Além disso, as leis de Newton são essenciais para entender fenômenos naturais como o movimento dos corpos na água, o voo de aviões e até mesmo a maneira como os esportes são jogados e os brinquedos funcionam. Em essência, o trabalho de Isaac Newton é um testemunho da poderosa interseção entre a ciência fundamental e a tecnologia aplicada, demonstrando como a compreensão profunda dos princípios naturais pode impulsionar inovações que transformam o mundo.
 
-![Isaac Newton e a maçã](/images/isaac-newton-apple.png "Isaac Newton e a maçã")
+![Isaac Newton e a maçã](/Images/isaac-newton-apple.png "Isaac Newton e a maçã")
 
 ### Exercícios práticos
 
