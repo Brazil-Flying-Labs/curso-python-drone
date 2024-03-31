@@ -275,5 +275,51 @@ Com isso, você estará organizando suas funções em um módulo e aprendendo a 
 
 Agora é hora de praticar o que aprendemos! Aqui estão alguns exercícios para você fazer para testar seus conhecimentos.
 
-#### Exercício 3.5:
-Escreva um programa Python que crie uma lista chamada "frutas" contendo os seguintes elementos: "maçã", "banana", "laranja", "uva" e "abacaxi". Em seguida, imprima a lista na tela. 
+#### Exercício 7.4:
+
+Neste exercício, você vai criar uma função em Python chamada `resumo_sanduiche` que aceita uma lista de ingredientes como argumento. Essa função deve iterar sobre os elementos dessa lista e exibir um resumo do sanduíche criado.
+
+Para começar, defina a função `resumo_sanduiche` com um parâmetro chamado `ingredientes`. Dentro da função, você irá iterar sobre cada ingrediente na lista e acumular esses ingredientes em uma string que representa o resumo do sanduíche.
+
+Por exemplo, se você fornecer uma lista de ingredientes como `["pão", "queijo", "presunto", "alface", "tomate"]`, o resumo do sanduíche deverá ser algo como "Seu sanduíche possui: pão, queijo, presunto, alface e tomate".
+
+Depois de criar a função `resumo_sanduiche`, teste-a com diferentes conjuntos de ingredientes para garantir que esteja funcionando corretamente. 
+
+#### Exercício 7.5:
+
+Neste exercício, você vai criar um jogo de adivinhação em Python. O objetivo do jogo é que o jogador tente adivinhar um número secreto escolhido aleatoriamente pelo computador.
+
+Para começar, você precisará importar o módulo random, que permitirá gerar números aleatórios. Em seguida, crie uma função chamada jogo_adivinhacao que irá conter toda a lógica do jogo.
+
+Dentro da função jogo_adivinhacao, o computador deve gerar um número aleatório entre 1 e 100, que será o número secreto a ser adivinhado pelo jogador. Em seguida, o jogador terá um número limitado de tentativas para adivinhar o número secreto.
+
+Cada vez que o jogador fizer uma tentativa, o programa deve informar se o número é maior, menor ou igual ao número secreto. Além disso, o programa deve contar quantas tentativas o jogador fez e informar isso a ele.
+
+O jogo deve continuar até que o jogador adivinhe corretamente o número secreto ou até que ele use todas as suas tentativas.
+
+Ao final do jogo, o programa deve informar ao jogador se ele ganhou ou perdeu, além de mostrar o número secreto e o número de tentativas que ele utilizou.
+
+#### Exercício 7.6:
+
+Neste exercício, você vai criar um programa em Python que calcula o Índice de Massa Corporal (IMC) de uma pessoa. O IMC é uma medida usada para avaliar se uma pessoa está com peso adequado em relação à sua altura.
+
+Para começar, você pode definir uma função chamada calcular_imc que aceita dois parâmetros: o peso da pessoa em quilogramas e a altura da pessoa em metros. Dentro desta função, você vai utilizar a fórmula do IMC para calcular o valor.
+
+A fórmula do IMC é dada por: IMC = peso / (altura ** 2)
+
+Depois de calcular o IMC, você pode adicionar uma lógica para classificar o resultado em diferentes faixas de peso, como "Abaixo do peso", "Peso normal", "Sobrepeso", "Obesidade Grau I", "Obesidade Grau II" e "Obesidade Grau III".
+
+Aqui estão os intervalos de valores de IMC para cada categoria:
+
+Abaixo do peso: IMC < 18.5
+Peso normal: 18.5 <= IMC < 25
+Sobrepeso: 25 <= IMC < 30
+Obesidade Grau I: 30 <= IMC < 35
+Obesidade Grau II: 35 <= IMC < 40
+Obesidade Grau III: IMC >= 40
+
+Esses são os valores comumente utilizados para classificar as diferentes faixas de peso com base no IMC. Ao calcular o IMC de uma pessoa, podemos comparar o resultado com esses intervalos para determinar em qual categoria ela se enquadra.
+
+Por fim, o programa deve imprimir o valor do IMC calculado e a classificação correspondente, para que o usuário possa avaliar sua condição física.
+
+
