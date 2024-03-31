@@ -271,6 +271,20 @@ Por fim, escreva um código que chama ambas as funções importadas, passando os
 
 Com isso, você estará organizando suas funções em um módulo e aprendendo a importá-las e utilizá-las em um código Python separado. Isso facilitará a reutilização das suas funções em diferentes partes do seu projeto!
 
+### Curiosidade: Alan Turing, o Gênio por Trás da Quebra do Código Enigma
+
+Alan Turing foi um renomado matemático, cientista da computação e pioneiro em inteligência artificial. Sua contribuição mais conhecida foi sua liderança na quebra do código Enigma durante a Segunda Guerra Mundial, um feito que teve um impacto significativo no resultado da guerra.
+
+Durante o conflito, os alemães usavam a máquina de codificação Enigma para enviar mensagens secretas. Essas mensagens eram extremamente difíceis de decifrar devido à complexidade do código gerado pela Enigma. No entanto, Turing liderou um esforço para desenvolver uma máquina chamada "Bombe", que foi projetada para quebrar o código Enigma.
+
+A Bombe foi baseada em princípios matemáticos e foi uma das primeiras formas de computação eletrônica. Ela funcionava testando diferentes combinações de configurações da máquina Enigma até encontrar aquela que correspondia à mensagem codificada. Este processo de decodificação foi intensivo em computação e exigiu uma quantidade enorme de cálculos.
+
+Graças à máquina Bombe as forças aliadas foram capazes de decifrar uma grande quantidade de mensagens alemãs. Essas informações forneceram uma vantagem crucial, permitindo que as forças aliadas antecipassem os movimentos e planos das forças inimigas.
+
+O trabalho de Turing na quebra do código Enigma foi uma demonstração notável de sua genialidade e habilidade matemática. Além disso, foi um marco importante no desenvolvimento da computação e da criptografia, pavimentando o caminho para futuros avanços tecnológicos.
+
+![A máquina de Turing](/Images/alan-turing-bombe.png "A máquina de Turing")
+
 ### Exercícios práticos
 
 Agora é hora de praticar o que aprendemos! Aqui estão alguns exercícios para você fazer para testar seus conhecimentos.
