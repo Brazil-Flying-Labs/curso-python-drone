@@ -211,7 +211,7 @@ Você descobriu de última hora que o local alugado para o jantar permite apenas
 
 Apesar de todos os preparativos, um de seus amigos avisou de última hora que não conseguirá comparecer ao jantar. Você precisa remover esse amigo da lista e inserir outra pessoa na posição correta na lista em ordem alfabética, para evitar a necessidade de reordenar a lista inteira. Sua tarefa é usar métodos de manipulação de lista para realizar essa operação e, em seguida, imprimir a lista atualizada para verificar as alterações.
 
-### Curiosidade: **Isaac Newton, o Gênio que Moldou o Mundo Moderno**
+### Curiosidade: Isaac Newton, o Gênio que Moldou o Mundo Moderno
 
 Isaac Newton, nascido em 1642 na Inglaterra, é reconhecido como um dos maiores cientistas de todos os tempos. Sua obra revolucionária abrange desde a física até a matemática e a astronomia, deixando um legado que moldou o mundo moderno de maneiras profundas e duradouras.
 
@@ -222,6 +222,8 @@ Além disso, Newton desenvolveu a teoria da gravitação universal, uma ideia re
 Hoje, as contribuições de Newton estão presentes em praticamente todas as esferas de nossa vida cotidiana. Desde a tecnologia espacial, onde suas leis são fundamentais para o design e operação de satélites que impulsionam a comunicação global e a navegação, até o campo da engenharia, onde são aplicadas em projetos de construção e transporte. 
 
 Além disso, as leis de Newton são essenciais para entender fenômenos naturais como o movimento dos corpos na água, o voo de aviões e até mesmo a maneira como os esportes são jogados e os brinquedos funcionam. Em essência, o trabalho de Isaac Newton é um testemunho da poderosa interseção entre a ciência fundamental e a tecnologia aplicada, demonstrando como a compreensão profunda dos princípios naturais pode impulsionar inovações que transformam o mundo.
+
+![Isaac Newton e a maçã](/images/isaac-newton-apple.png "Isaac Newton e a maçã")
 
 ### Exercícios práticos
 
