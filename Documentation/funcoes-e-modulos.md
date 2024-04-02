@@ -328,12 +328,12 @@ Depois de calcular o IMC, você pode adicionar uma lógica para classificar o re
 
 Aqui estão os intervalos de valores de IMC para cada categoria:
 
-Abaixo do peso: IMC < 18.5
-Peso normal: 18.5 <= IMC < 25
-Sobrepeso: 25 <= IMC < 30
-Obesidade Grau I: 30 <= IMC < 35
-Obesidade Grau II: 35 <= IMC < 40
-Obesidade Grau III: IMC >= 40
+- Abaixo do peso: IMC < 18.5
+- Peso normal: 18.5 <= IMC < 25
+- Sobrepeso: 25 <= IMC < 30
+- Obesidade Grau I: 30 <= IMC < 35
+- Obesidade Grau II: 35 <= IMC < 40
+- Obesidade Grau III: IMC >= 40
 
 Esses são os valores comumente utilizados para classificar as diferentes faixas de peso com base no IMC. Ao calcular o IMC de uma pessoa, podemos comparar o resultado com esses intervalos para determinar em qual categoria ela se enquadra.
 
