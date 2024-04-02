@@ -320,7 +320,7 @@ Ao final do jogo, o programa deve informar ao jogador se ele ganhou ou perdeu, a
 
 Neste exercício, você vai criar um programa em Python que calcula o Índice de Massa Corporal (IMC) de uma pessoa. O IMC é uma medida usada para avaliar se uma pessoa está com peso adequado em relação à sua altura.
 
-Para começar, você pode definir uma função chamada calcular_imc que aceita dois parâmetros: o peso da pessoa em quilogramas e a altura da pessoa em metros. Dentro desta função, você vai utilizar a fórmula do IMC para calcular o valor.
+Para começar, você pode definir uma função chamada calcular_imc que aceita dois parâmetros: o peso da pessoa em quilogramas e a altura da pessoa em metros. Dentro desta função, você vai utilizar a fórmula do IMC para calcular o valor. Os valores de peso e altura devem ser fornecidos pelo usuário para o programa.
 
 A fórmula do IMC é dada por: IMC = peso / (altura ** 2)
 
