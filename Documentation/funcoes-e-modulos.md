@@ -268,7 +268,7 @@ Neste exercício, você vai organizar as funções criadas nos exercícios 7.1 e
 
 Para começar, copie as funções que você desenvolveu nos exercícios 7.1 e 7.2 para um arquivo Python chamado `minhas_funcoes.py`. Certifique-se de que cada função esteja definida corretamente no arquivo.
 
-Depois de organizar as funções em um módulo, você vai criar um novo arquivo Python onde irá importar essas funções. Utilize a sintaxe `from minhas_funcoes import nome_da_funcao` para importar cada função individualmente.
+Depois de organizar as funções em um módulo, você vai importar essas funções em `main.py`. Utilize a sintaxe `from minhas_funcoes import nome_da_funcao` para importar cada função individualmente.
 
 Por fim, escreva um código que chama ambas as funções importadas, passando os argumentos necessários.
 
