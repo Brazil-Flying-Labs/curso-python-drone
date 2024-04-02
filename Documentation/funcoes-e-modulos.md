@@ -215,6 +215,7 @@ def quadrado(x):
 Para utilizar esta função em nosso programa principal, precisamos importá-la:
 
 ```python
+# main.py
 import operacoes
 
 resultado = operacoes.quadrado(5)
