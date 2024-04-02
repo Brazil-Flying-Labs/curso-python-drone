@@ -224,7 +224,7 @@ print(resultado)  # Saída: 25
 
 Quando importamos um módulo inteiro usando a sintaxe `import nome_do_modulo`, todas as funções e variáveis definidas nesse módulo ficam disponíveis para uso, mas precisamos especificar o nome do módulo seguido de um ponto (.) para acessá-las.
 
-No exemplo acima, importamos o módulo operacoes. Para chamar a função quadrado() que está dentro deste módulo, usamos o nome do módulo seguido de um ponto (operacoes.) para indicar que estamos acessando uma função dentro do módulo operacoes.
+No exemplo acima, importamos o módulo `operacoes`. Para chamar a função `quadrado()` que está dentro deste módulo, usamos o nome do módulo seguido de um ponto `operacoes.` para indicar que estamos acessando uma função dentro do módulo `operacoes`.
 
 Essa abordagem é útil quando estamos importando módulos que contêm muitas funções e queremos evitar possíveis conflitos de nomes entre as funções do módulo importado e as funções do nosso programa principal. Ao usar o nome do módulo seguido de um ponto, deixamos claro de onde vem a função que estamos chamando.
 
@@ -235,6 +235,7 @@ Além de importar um módulo inteiro, você pode importar funções específicas
 Por exemplo:
 
 ```python
+# main.py
 from operacoes import quadrado
 
 resultado = quadrado(5)
@@ -250,6 +251,7 @@ Além disso, importar apenas as funções necessárias pode melhorar o desempenh
 Você também pode renomear funções ao importá-las:
 
 ```python
+# main.py
 from operacoes import quadrado as quad
 
 resultado = quad(5)
