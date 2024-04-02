@@ -276,7 +276,7 @@ Com isso, você estará organizando suas funções em um módulo e aprendendo a 
 
 ### Curiosidade: Alan Turing, o Gênio por Trás da Quebra do Código Enigma
 
-Alan Turing foi um renomado matemático, cientista da computação e pioneiro em inteligência artificial. Sua contribuição mais conhecida foi sua liderança na quebra do código Enigma durante a Segunda Guerra Mundial, um feito que teve um impacto significativo no resultado da guerra.
+Alan Turing, nascido em 23 de junho de 1912 na Inglaterra, foi um renomado matemático, cientista da computação e pioneiro em inteligência artificial. Sua contribuição mais conhecida foi sua liderança na quebra do código Enigma durante a Segunda Guerra Mundial, um feito que teve um impacto significativo no resultado da guerra.
 
 Durante o conflito, os alemães usavam a máquina de codificação Enigma para enviar mensagens secretas. Essas mensagens eram extremamente difíceis de decifrar devido à complexidade do código gerado pela Enigma. No entanto, Turing liderou um esforço para desenvolver uma máquina chamada "Bombe", que foi projetada para quebrar o código Enigma.
 
