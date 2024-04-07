@@ -156,14 +156,6 @@ Adicione um método `fazer_som` à classe `Animal` que imprima um som caracterí
 
 Crie uma classe `Circulo` com um atributo `raio` e métodos para calcular a área e o perímetro do círculo. Em seguida, crie um objeto dessa classe e imprima essas informações.
 
-Lembre-se das seguintes fórmulas:
-
-Claro! Aqui está o texto formatado para Markdown, adequado para uso em arquivos `.md` do Git:
-
----
-
-## Fórmulas para Calcular Área e Perímetro de um Círculo
-
 A área de um círculo é dada pela fórmula:
    
    ```
@@ -190,12 +182,61 @@ O perímetro de um círculo, também chamado de circunferência, é dado pela f�
 
 Essa fórmula representa o comprimento da linha que forma a borda do círculo, ou seja, a circunferência. Multiplicando o valor de \( π \) pelo diâmetro do círculo (que é o dobro do raio), obtemos o perímetro.
 
+### Herança em Programação Orientada a Objetos
+
+A herança é um dos conceitos fundamentais da Programação Orientada a Objetos (POO). Ela permite que uma classe, chamada de classe derivada ou subclasse, herde atributos e métodos de outra classe, chamada de classe base ou superclasse.
+
+Em termos simples, podemos pensar na herança como uma relação "é-um". Por exemplo, se tivermos uma classe `Animal` e uma classe `Cachorro`, podemos dizer que um cachorro "é-um" animal. Portanto, faz sentido que a classe `Cachorro` herde características da classe `Animal`, como métodos para se locomover, comer, dormir, etc.
+
+A herança proporciona uma forma de reutilização de código, já que as subclasses podem aproveitar o comportamento e as características da classe base sem precisar reescrever o código. Além disso, ela permite a extensão e especialização das classes, adicionando novos atributos e métodos ou alterando os existentes conforme necessário.
+
+A herança é uma poderosa ferramenta na POO que nos permite criar hierarquias de classes e organizar o código de forma mais eficiente e modular, promovendo a reutilização, a extensibilidade e a flexibilidade do software.
+
+Vamos ver esse conceito na prática com o exemplo de um carro elétrico. Primeiro, utilizaremos a classe `Carro` como a classe base. Essa classe contém atributos comuns a todos os carros, como marca, modelo e ano. Em seguida, criaremos uma classe derivada chamada `CarroEletrico`, que herda da classe `Carro`. Esta nova classe terá funcionalidades específicas para carros elétricos, como a capacidade da bateria e métodos para carregar a bateria e mostrar a carga atual.
+
+```python
+class Carro:
+    --snip--
+
+class CarroEletrico(Carro):
+    def __init__(self, marca, modelo, ano, capacidade_bateria):
+        super().__init__(marca, modelo, ano)
+        self.capacidade_bateria = capacidade_bateria
+        self.carga_bateria = 0.3 * capacidade_bateria  # Inicialmente a bateria está 30% carregada
+
+    def carregar(self, carga):
+        self.carga_bateria += carga
+        return "Carregando a bateria do carro elétrico."
+
+    def mostrar_carga_bateria(self):
+        percentual_bateria = (self.carga_bateria / self.capacidade_bateria) * 100
+        return f"Carga da bateria: {self.carga_bateria:.1f} kWh ({percentual_bateria:.1f}%)."
+
+# Vamos criar um objeto Carro Elétrico
+tesla = CarroEletrico("Tesla", "Model S", 2022, 75)
+print(tesla.ligar())  # Saída: O motor foi ligado.
+print(tesla.acelerar(50))  # Saída: Acelerando o carro.
+print(tesla.mostrar_carga_bateria())  # Saída: Carga da bateria: 22.5 kWh (30.0%)
+
+# Agora vamos carregar esse carro!
+meu_carro_eletrico.carregar(20)  # Carregando mais 20 kWh na bateria
+print(meu_carro_eletrico.mostrar_carga_bateria())  # Saída: Carga da bateria: 42.5 kWh (56.7%)
+```
+
+Neste exemplo criamos a classe `CarroEletrico`, que herda da classe `Carro`. Isso significa que a classe `CarroEletrico` possui todos os atributos e métodos da classe `Carro`, além de seus próprios atributos e métodos específicos para carros elétricos. Na programação orientada a objetos, quando uma classe herda de outra classe, ela adquire todos os métodos e atributos da classe base. Isso significa que, se uma classe derivada não definir um método que está presente na classe base, ela ainda pode acessá-lo e usá-lo.
+
+Na inicialização da classe `CarroEletrico`, definimos um atributo adicional `capacidade_bateria` e adicionamos outro atributo `carga_bateria` com 30% da capacidade total da bateria. A seguir, implementamos dois métodos específicos: `carregar()` para adicionar carga à bateria e `mostrar_carga_bateria()` para exibir a carga atual da bateria em kWh e em percentual.
+
+Depois criamos um objeto `testa` a partir da classe `CarroEletrico`, que representa um carro elétrico da marca Tesla, modelo Model S, fabricado no ano de 2022 e com capacidade de bateria de 75 kWh. 
+
+Após criar o objeto `tesla`, chamamos o método `ligar()`, que está definido na classe `Carro`. Esse método simula o ato de ligar o motor do carro elétrico, definindo o atributo `ligado` como `True`. A saída dessa chamada é a mensagem "O motor foi ligado.".
+
+Note que a classe `Carro` possui o método `ligar()`, que simula o ato de ligar o motor do carro. Quando criamos um objeto da classe `CarroEletrico` e chamamos o método `ligar()`, mesmo que esse método não tenha sido explicitamente definido na classe `CarroEletrico`, ele está presente na classe pai, `Carro`. Portanto, o objeto da classe `CarroEletrico` pode acessar e usar o método `ligar()` através do conceito de herança. 
+
+Em seguida, chamamos o método `acelerar(50)`. No entanto, esse método não está definido na classe `CarroEletrico`, mas sim na classe `Carro`. Portanto, o método `acelerar()` é herdado pela classe `CarroEletrico`. Neste caso, estamos tentando acelerar o carro a uma velocidade de 50 km/h. A saída dessa chamada é a mensagem "Acelerando o carro.".
+
+Após isso, chamamos o método `mostrar_carga_bateria()`, que está definido na classe `CarroEletrico`. Esse método retorna uma string com a carga atual da bateria do carro elétrico, bem como o percentual correspondente. No momento da chamada, a carga da bateria é de 22.5 kWh, o que representa 30.0% da capacidade total da bateria (75 kWh).
+
+Finalmente, realizamos a operação de carregamento, chamando o método `carregar(20)`. Esse método aumenta a carga da bateria em 20 kWh. Após essa operação, chamamos novamente o método `mostrar_carga_bateria()`, e a saída exibe a carga atual da bateria, que agora é de 42.5 kWh, representando 56.7% da capacidade total da bateria.
 
 
-
-
-
-### Biblioteca Padrão de Python: Classes Úteis
-Além de criar nossas próprias classes, Python também oferece uma vasta biblioteca padrão com classes úteis prontas para uso. Exploraremos algumas das classes principais dessa biblioteca, como `datetime`, `math` e `random`, e aprenderemos como importá-las em nossos programas para realizar tarefas específicas.
-
-Prepare-se para mergulhar de cabeça na Programação Orientada a Objetos e expandir suas habilidades de programação com Python! Pratique bastante, faça perguntas e não tenha medo de errar - é assim que aprendemos melhor. Vamos lá!
