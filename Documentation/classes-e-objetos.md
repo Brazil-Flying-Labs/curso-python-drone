@@ -134,7 +134,7 @@ print(meu_carro.acelerar(100)) # Saída: Limite de velocidade excedido. Reduza a
 
 Neste exemplo, adicionamos um novo método chamado `acelerar()` à classe `Carro`. Este método recebe um argumento `incremento` que representa o aumento na velocidade do carro em quilômetros por hora (km/h). 
 
-Note que dentro do construtor __init__() da classe Carro, foi adicionado um novo atributo chamado velocidade. Este atributo é inicializado com o valor 0 quando um novo objeto da classe Carro é criado. Isso significa que, sempre que instanciamos um novo carro, ele é criado com uma velocidade inicial igual a zero, indicando que o carro está parado. 
+Note que dentro do construtor `__init__()` da classe Carro, foi adicionado um novo atributo chamado velocidade. Este atributo é inicializado com o valor 0 quando um novo objeto da classe Carro é criado. Isso significa que, sempre que instanciamos um novo carro, ele é criado com uma velocidade inicial igual a zero, indicando que o carro está parado. 
 
 Dentro do método `acelerar()`, verificamos se a velocidade atual do carro somada ao incremento não excede o limite de velocidade de 200 km/h. Se não exceder, incrementamos a velocidade atual do carro e retornamos uma mensagem indicando a nova velocidade do carro. Caso contrário, se o limite de velocidade for excedido, retornamos uma mensagem alertando o usuário para reduzir a velocidade.
 
