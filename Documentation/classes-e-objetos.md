@@ -2,7 +2,7 @@
 
 Bem-vindo ao mais um capítulo da nossa jornada na programação com Python! Neste capítulo, vamos mergulhar no fascinante mundo da Programação Orientada a Objetos (POO) e aprender sobre Classes e Objetos.
 
-A Programação Orientada a Objetos é um paradigma de programação poderoso que nos permite organizar nosso código de forma mais eficiente, criando estruturas de dados chamadas de "Classes" que representam objetos do mundo real. Em POO, os objetos possuem características (atributos) e comportamentos (métodos), tornando o código mais modular e reutilizável.
+A Programação Orientada a Objetos é um paradigma de programação poderoso que nos permite organizar nosso código de forma mais eficiente, criando estruturas de dados chamadas de "Classes" que representam objetos do mundo real. Em POO, os objetos possuem características "atributos" e comportamentos "métodos", tornando o código mais modular e reutilizável.
 
 ### Fundamentos da POO
 
