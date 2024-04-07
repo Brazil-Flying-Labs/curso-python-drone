@@ -217,15 +217,15 @@ class CarroEletrico(Carro):
 # Vamos criar um objeto Carro Elétrico
 tesla = CarroEletrico("Tesla", "Model S", 2022, 75)
 print(tesla.ligar())  # Saída: O motor foi ligado.
-print(tesla.acelerar(50))  # Saída: Acelerando o carro.
-print(tesla.mostrar_carga_bateria())  # Saída: Carga da bateria: 22.5 kWh (30.0%)
+print(tesla.acelerar(50))  # Saída: O carro acelerou para 50 km/h.
+print(tesla.mostrar_carga_bateria())  # Saída: Carga da bateria: 22.5 kWh (30.0%).
 
 # Agora vamos carregar esse carro!
-meu_carro_eletrico.carregar(20)  # Carregando mais 20 kWh na bateria
-print(meu_carro_eletrico.mostrar_carga_bateria())  # Saída: Carga da bateria: 42.5 kWh (56.7%)
+tesla.carregar(20)  # Carregando mais 20 kWh na bateria
+print(tesla.mostrar_carga_bateria())  # Saída: Carga da bateria: 42.5 kWh (56.7%).
 ```
 
-Neste exemplo criamos a classe `CarroEletrico`, que herda da classe `Carro`. Isso significa que a classe `CarroEletrico` possui todos os atributos e métodos da classe `Carro`, além de seus próprios atributos e métodos específicos para carros elétricos. Na programação orientada a objetos, quando uma classe herda de outra classe, ela adquire todos os métodos e atributos da classe base. Isso significa que, se uma classe derivada não definir um método que está presente na classe base, ela ainda pode acessá-lo e usá-lo.
+Neste exemplo criamos a classe `CarroEletrico`, que herda da classe `Carro`. Isso significa que a classe `CarroEletrico` possui todos os atributos e métodos da classe `Carro`, além de seus próprios atributos e métodos específicos para carros elétricos. 
 
 Na inicialização da classe `CarroEletrico`, definimos um atributo adicional `capacidade_bateria` e adicionamos outro atributo `carga_bateria` com 30% da capacidade total da bateria. A seguir, implementamos dois métodos específicos: `carregar()` para adicionar carga à bateria e `mostrar_carga_bateria()` para exibir a carga atual da bateria em kWh e em percentual.
 
@@ -233,11 +233,11 @@ Depois criamos um objeto `testa` a partir da classe `CarroEletrico`, que represe
 
 Após criar o objeto `tesla`, chamamos o método `ligar()`, que está definido na classe `Carro`. Esse método simula o ato de ligar o motor do carro elétrico, definindo o atributo `ligado` como `True`. A saída dessa chamada é a mensagem "O motor foi ligado.".
 
-Note que a classe `Carro` possui o método `ligar()`, que simula o ato de ligar o motor do carro. Quando criamos um objeto da classe `CarroEletrico` e chamamos o método `ligar()`, mesmo que esse método não tenha sido explicitamente definido na classe `CarroEletrico`, ele está presente na classe pai, `Carro`. Portanto, o objeto da classe `CarroEletrico` pode acessar e usar o método `ligar()` através do conceito de herança. 
+Note que a classe `Carro` possui o método `ligar()`, que simula o ato de ligar o motor do carro. Quando criamos um objeto da classe `CarroEletrico` e chamamos o método `ligar()`, mesmo que esse método não tenha sido explicitamente definido na classe `CarroEletrico`, ele está presente na classe base, `Carro`. Portanto, o objeto da classe `CarroEletrico` pode acessar e usar o método `ligar()` através do conceito de herança. 
 
-Em seguida, chamamos o método `acelerar(50)`. No entanto, esse método não está definido na classe `CarroEletrico`, mas sim na classe `Carro`. Portanto, o método `acelerar()` é herdado pela classe `CarroEletrico`. Neste caso, estamos tentando acelerar o carro a uma velocidade de 50 km/h. A saída dessa chamada é a mensagem "Acelerando o carro.".
+Após isso, invocamos o método `acelerar(50)`. No entanto, é importante notar que esse método não está diretamente definido na classe `CarroElétrico`, mas sim na classe `Carro`. Dessa forma, o método `acelerar()` é herdado pela classe `CarroElétrico`. Aqui, estamos tentando aumentar a velocidade do carro para 50 km/h. A resposta dessa chamada é a mensagem " O carro acelerou para 50 km/h.".
 
-Após isso, chamamos o método `mostrar_carga_bateria()`, que está definido na classe `CarroEletrico`. Esse método retorna uma string com a carga atual da bateria do carro elétrico, bem como o percentual correspondente. No momento da chamada, a carga da bateria é de 22.5 kWh, o que representa 30.0% da capacidade total da bateria (75 kWh).
+Após isso, chamamos o método `mostrar_carga_bateria()`, que está definido na classe `CarroEletrico`. Esse método retorna uma string com a carga atual da bateria do carro elétrico, bem como o percentual correspondente. No momento da chamada, a carga da bateria é de 22.5 kWh, o que representa 30.0% da capacidade total da bateria de 75 kWh.
 
 Finalmente, realizamos a operação de carregamento, chamando o método `carregar(20)`. Esse método aumenta a carga da bateria em 20 kWh. Após essa operação, chamamos novamente o método `mostrar_carga_bateria()`, e a saída exibe a carga atual da bateria, que agora é de 42.5 kWh, representando 56.7% da capacidade total da bateria.
 
@@ -251,45 +251,43 @@ class CarroCombustao(Carro):
     def __init__(self, marca, modelo, ano, capacidade_tanque):
         super().__init__(marca, modelo, ano)
         self.capacidade_tanque = capacidade_tanque
-        self.volume_combustivel = 1.3 * capacidade_tanque
+        self.nivel_combustivel = 0.3 * capacidade_tanque
 
     def abastecer(self, volume):
-        if self.volume_combustivel + volume <= self.volume_tanque:
-            self.volume_combustivel += volume
+        if self.nivel_combustivel + volume <= self.capacidade_tanque:
+            self.nivel_combustivel += volume
             return "Abastecimento realizado com sucesso."
         else:
             return "Tanque de combustível não comporta esse volume."
 
-    def mostrar_nível_combustivel(self):
-        percentual_combustivel = (self.volume_combustivel / self.capacidade_tanque) * 100
-        return f"Nível de combustível: {self.volume_combustivel:.1f} litros ({percentual_combustivel:.1f}%)."
+    def mostrar_nivel_combustivel(self):
+        percentual_combustivel = (self.nivel_combustivel / self.capacidade_tanque) * 100
+        return f"Nível de combustível: {self.nivel_combustivel:.1f} litros ({percentual_combustivel:.1f}%)."
 
 # Criando um objeto Carro Combustível
-fusion = CarroCombustivel("Ford", "Fusion", 2022, 60)
+fusion = CarroCombustao("Ford", "Fusion", 2022, 60)
 
 # Chamando os métodos
 print(fusion.ligar())  # Saída: O motor foi ligado.
-print(fusion.acelerar(50))  # Saída: Acelerando o carro.
-print(fusion.mostrar_nivel_combustivel())  # Saída: Nível de combustível: 20 litros.
+print(fusion.acelerar(30))  # Saída: O carro acelerou para 30 km/h.
+print(fusion.mostrar_nivel_combustivel())  # Saída: Nível de combustível: 18.0 litros (30.0%).
 
 # Abastecendo o carro
-fusion.abastecer(30)  # Abastecendo com 30 litros de combustível
-print(fusion.mostrar_nivel_combustivel())  # Saída: Nível de combustível: 50 litros.
+print(fusion.abastecer(30))  # Saída: Abastecimento realizado com sucesso
+print(fusion.mostrar_nivel_combustivel())  # Saída: Nível de combustível: 48.0 litros (80.0%).
 ```
 
-Neste exemplo, a classe `CarroCombustao` herda todos os métodos da classe `Carro`, incluindo `ligar()`, `acelerar()` e `descrever()`. Além disso, possui métodos específicos como `abastecer()` para adicionar combustível ao tanque e `mostrar_nivel_combustivel()` para exibir o nível atual de combustível.
+Iniciamos com a base sólida da classe `Carro`, que representa o coração pulsante de qualquer automóvel. Em seguida, moldamos a classe CarroCombustão, adicionando características específicas que o diferenciam dos demais. Dentre elas, destaca-se a capacidade de armazenamento do tanque de combustível, essencial para o funcionamento deste tipo de veículo.
 
-Em seguida estamos criando um objeto da classe `CarroCombustivel`, denominado `fusion`. Este carro é um modelo Ford Fusion do ano 2022, com um tanque de capacidade de 60 litros. 
+Com a estrutura pronta, é hora de adicionar funcionalidades essenciais. A primeira delas é o método `abastecer()` , que simula o ato de reabastecer o tanque com combustível, como por exemplo gasolina. Aqui, a lógica é simples: verificamos se o volume a ser adicionado ao tanque não ultrapassa sua capacidade máxima, garantindo assim um abastecimento seguro e eficiente.
 
-O método `ligar()` é invocado para iniciar o motor do carro. 
+Além disso, implementamos o método `mostrar_nivel_combustivel()` , que fornece informações detalhadas sobre o estado atual do tanque. Através deste método, é possível verificar o nível de combustível em litros e seu respectivo percentual em relação à capacidade total do tanque.
 
-Posteriormente, chamamos o método `acelerar(50)`, que acelera o carro em 50 km/h. 
+Com a classe `CarroCombustao` pronta para ser testada, é chegada a hora de ver todo o seu potencial em ação. Criamos uma instância deste veículo e ao chamarmos seus métodos, somos presenteados com mensagens que ecoam o funcionamento de um carro real: "O motor foi ligado.", "O carro acelerou para 30 km/h.", "Nível de combustível: 18.0 litros (30.0%)".
 
-Utilizamos o método `mostrar_nivel_combustivel()` para exibir o nível atual de combustível no tanque do carro. Por exemplo, se o tanque estiver com 20 litros de combustível, a saída será "Nível de combustível: 20 litros."
+E para completar a experiência, realizamos um abastecimento simulado, adicionando 30 litros de combustível ao tanque. Como resultado, o nível de combustível sobe para 48.0 litros, atingindo 80% da capacidade total do tanque. 
 
-Em seguida, invocamos o método `abastecer(30)` para adicionar 30 litros de combustível ao tanque do carro. Após o abastecimento, o nível de combustível no tanque será aumentado em 30 litros.
-
-Por fim, utilizamos novamente o método `mostrar_nivel_combustivel()` para exibir o novo nível de combustível no tanque do carro após o abastecimento. Se o tanque estiver com 50 litros de combustível após o abastecimento, a saída será "Nível de combustível: 50 litros."
+Este é apenas um vislumbre das possibilidades que a programação orientada a objetos nos oferece, onde podemos criar e interagir com objetos que reproduzem fielmente o comportamento e funcionalidades de objetos reais.
 
 ### Faça agora mesmo !
 
@@ -325,7 +323,7 @@ Uma de suas invenções mais marcantes e influentes foi o sistema de corrente al
 
 Tesla também é conhecido por muitas outras invenções e descobertas, incluindo a bobina de Tesla, o motor de indução e contribuições importantes para o desenvolvimento da comunicação sem fio e do rádio. Sua genialidade e visão futurista continuam a inspirar cientistas, engenheiros e inventores até os dias de hoje.
 
-Uma curiosidade fascinante sobre Nikola Tesla, o cientista e inventor, é que ele alegou ter tido visões e ideias que o ajudaram a criar algumas de suas invenções mais revolucionárias. Tesla afirmou que muitas de suas ideias e conceitos surgiram em visões vívidas e intuitivas, às vezes acompanhadas por flashes de luz e imagens em sua mente. Ele descreveu essas visões como uma espécie de insight criativo que o guiou no desenvolvimento de tecnologias como a corrente alternada, a bobina de Tesla e o rádio. Essa narrativa sobre a inspiração de Tesla adiciona uma camada de mistério e maravilha à sua já incrível história como um dos maiores gênios da era moderna.
+Uma curiosidade fascinante sobre Nikola Tesla, o cientista e inventor, é que ele alegou ter tido visões e ideias que o ajudaram a criar algumas de suas invenções mais revolucionárias. Tesla afirmou que muitas de suas ideias e conceitos surgiram em visões vívidas e intuitivas, às vezes acompanhadas por flashes de luz e imagens em sua mente. Ele descreveu essas visões como uma espécie de insight criativo que o guiou no desenvolvimento de tecnologias como a corrente alternada, a bobina de Tesla e o rádio. 
 
 ![As visões criativas de Tesla](/Images/tesla-alternate-current.png "As visões criativas de Tesla")
 
@@ -340,17 +338,8 @@ Vamos criar uma classe chamada `ContaBancaria`. Nela, podemos definir caracterí
 #### Exercício 8.6:
 
 Agora vamos criar uma classe chamada `Pessoa`. Nela, podemos definir atributos como nome, idade e profissão, características comuns a todas as pessoas. Em seguida, adicionaremos métodos para modificar a idade e a profissão da pessoa. Podemos então instanciar objetos dessa classe e testar seus métodos. Por exemplo, podemos criar uma pessoa chamada João, com 30 anos de idade e que trabalha como professor. Em seguida, podemos modificar sua idade para 31 anos e sua profissão para engenheiro, e verificar se as alterações foram feitas corretamente.
-Crie uma classe `ContaBancaria` com atributos como número da conta e saldo. Adicione métodos para depositar, sacar e verificar saldo. Crie instâncias da classe `ContaBancaria` e teste seus métodos.
 
 #### Exercício 8.7:
-
-Vamos trabalhar com uma classe chamada Produto. Nela, definiremos atributos como nome e preço, que são comuns a todos os produtos. Em seguida, criaremos subclasses como Eletrônico e Alimento, que herdarão esses atributos da classe Produto. Cada uma dessas subclasses terá métodos específicos, como calcular a garantia para produtos eletrônicos ou verificar a validade para alimentos. Podemos então criar instâncias dessas subclasses e testar seus métodos.
-
-#### Exercício 8.8:
-
-Agora vamos criar uma classe chamada Forma. Nela, definiremos métodos para calcular a área e o perímetro de diferentes formas geométricas. Em seguida, criaremos subclasses como Retângulo e Círculo, que herdarão esses métodos da classe Forma. Cada uma dessas subclasses terá métodos específicos para calcular área e perímetro de acordo com sua forma geométrica. Podemos então criar instâncias dessas subclasses e testar seus métodos.
-
-#### Exercício 8.9:
 
 Vamos criar uma classe chamada Funcionário. Nela, definiremos atributos como nome e salário, comuns a todos os funcionários. Em seguida, criaremos subclasses como Gerente e Vendedor, que herdarão esses atributos da classe Funcionário. Cada uma dessas subclasses terá métodos específicos para calcular bônus ou comissão, de acordo com o tipo de funcionário. Podemos então criar instâncias dessas subclasses e testar seus métodos.
 
