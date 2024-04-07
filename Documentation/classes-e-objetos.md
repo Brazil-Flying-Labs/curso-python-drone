@@ -317,7 +317,7 @@ Imagine que você está desenvolvendo um sistema para um zoológico, e precisa c
 
 Você precisa criar as classes conforme explicado, garantindo que a herança seja aplicada corretamente. Certifique-se de definir os atributos e métodos de cada classe conforme as especificações fornecidas. Não se esqueça de criar instâncias das classes e testar os métodos adicionais para garantir que funcionem como esperado.
 
-### Curiosidade: As visões criativas de Nikola Tesla
+### Curiosidade: As visões criativas de Tesla
 
 Nikola Tesla nasceu em Smiljan, uma pequena aldeia na região montanhosa de Lika, que hoje pertence à Croácia, em 10 de julho de 1856. Ele foi um inventor, engenheiro elétrico e físico renomado, cujas contribuições tiveram um impacto significativo na história da eletricidade e da tecnologia moderna.
 
@@ -327,13 +327,30 @@ Tesla também é conhecido por muitas outras invenções e descobertas, incluind
 
 Uma curiosidade fascinante sobre Nikola Tesla, o cientista e inventor, é que ele alegou ter tido visões e ideias que o ajudaram a criar algumas de suas invenções mais revolucionárias. Tesla afirmou que muitas de suas ideias e conceitos surgiram em visões vívidas e intuitivas, às vezes acompanhadas por flashes de luz e imagens em sua mente. Ele descreveu essas visões como uma espécie de insight criativo que o guiou no desenvolvimento de tecnologias como a corrente alternada, a bobina de Tesla e o rádio. Essa narrativa sobre a inspiração de Tesla adiciona uma camada de mistério e maravilha à sua já incrível história como um dos maiores gênios da era moderna.
 
-![A Lenda da Maçã e a Descoberta de Newton](/Images/isaac-newton-apple.png "A Lenda da Maçã e a Descoberta de Newton")
+![As visões criativas de Tesla](/Images/tesla-alternate-current.png "As visões criativas de Tesla")
 
 ### Exercícios práticos
 
 Agora é hora de praticar o que aprendemos! Aqui estão alguns exercícios para você fazer para testar seus conhecimentos.
 
 #### Exercício 8.5:
-Escreva um programa Python que crie uma lista chamada "frutas" contendo os seguintes elementos: "maçã", "banana", "laranja", "uva" e "abacaxi". Em seguida, imprima a lista na tela. 
 
+Vamos criar uma classe chamada `ContaBancaria`. Nela, podemos definir características comuns a todas as contas bancárias, como o número da conta e o saldo disponível. Em seguida, adicionaremos métodos para realizar operações como depositar dinheiro, sacar e verificar o saldo atual. Após criar a classe, podemos instanciar objetos dela e testar seus métodos. Por exemplo, podemos criar uma conta para Maria, depositar R$100 nela e depois sacar R$50 para ver o saldo restante.
+
+#### Exercício 8.6:
+
+Agora vamos criar uma classe chamada `Pessoa`. Nela, podemos definir atributos como nome, idade e profissão, características comuns a todas as pessoas. Em seguida, adicionaremos métodos para modificar a idade e a profissão da pessoa. Podemos então instanciar objetos dessa classe e testar seus métodos. Por exemplo, podemos criar uma pessoa chamada João, com 30 anos de idade e que trabalha como professor. Em seguida, podemos modificar sua idade para 31 anos e sua profissão para engenheiro, e verificar se as alterações foram feitas corretamente.
+Crie uma classe `ContaBancaria` com atributos como número da conta e saldo. Adicione métodos para depositar, sacar e verificar saldo. Crie instâncias da classe `ContaBancaria` e teste seus métodos.
+
+#### Exercício 8.7:
+
+Vamos trabalhar com uma classe chamada Produto. Nela, definiremos atributos como nome e preço, que são comuns a todos os produtos. Em seguida, criaremos subclasses como Eletrônico e Alimento, que herdarão esses atributos da classe Produto. Cada uma dessas subclasses terá métodos específicos, como calcular a garantia para produtos eletrônicos ou verificar a validade para alimentos. Podemos então criar instâncias dessas subclasses e testar seus métodos.
+
+#### Exercício 8.8:
+
+Agora vamos criar uma classe chamada Forma. Nela, definiremos métodos para calcular a área e o perímetro de diferentes formas geométricas. Em seguida, criaremos subclasses como Retângulo e Círculo, que herdarão esses métodos da classe Forma. Cada uma dessas subclasses terá métodos específicos para calcular área e perímetro de acordo com sua forma geométrica. Podemos então criar instâncias dessas subclasses e testar seus métodos.
+
+#### Exercício 8.9:
+
+Vamos criar uma classe chamada Funcionário. Nela, definiremos atributos como nome e salário, comuns a todos os funcionários. Em seguida, criaremos subclasses como Gerente e Vendedor, que herdarão esses atributos da classe Funcionário. Cada uma dessas subclasses terá métodos específicos para calcular bônus ou comissão, de acordo com o tipo de funcionário. Podemos então criar instâncias dessas subclasses e testar seus métodos.
 
