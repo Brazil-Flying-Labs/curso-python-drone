@@ -139,7 +139,7 @@ No exemplo fornecido, o comando `poligonos.remove(5)` remove o elemento 5 da lis
 
 O método `pop()` sem argumento remove e retorna o último elemento da lista. Isso pode ser útil quando queremos remover o último item de uma lista e não nos importamos com o valor do item removido. 
 
-## Ordenando uma lista
+### Ordenando uma lista
 
 É possível ordenar os elementos de uma lista utilizando os métodos `sort()` ou `sorted()`. O método `sort()` ordena a lista permanentemente em ordem crescente por padrão, enquanto o método `sorted()` retorna uma nova lista ordenada temporariamente. Para ordenar em ordem decrescente, podemos passar o argumento `reverse=True` para ambos os métodos. Veja como usar:
 
