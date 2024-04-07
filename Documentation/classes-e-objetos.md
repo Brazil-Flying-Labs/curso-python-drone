@@ -158,23 +158,38 @@ Crie uma classe `Circulo` com um atributo `raio` e métodos para calcular a áre
 
 Lembre-se das seguintes fórmulas:
 
-1. Área do Círculo:
+Claro! Aqui está o texto formatado para Markdown, adequado para uso em arquivos `.md` do Git:
+
+---
+
+## Fórmulas para Calcular Área e Perímetro de um Círculo
+
+A área de um círculo é dada pela fórmula:
    
-   A área de um círculo é dada pela fórmula \( A = \pi \times raio^2 \), onde:
+   ```
+   A = π × raio^2
+   ```
+   
+   Onde:
    - \( A \) é a área do círculo,
-   - \( \pi \) é uma constante matemática aproximadamente igual a 3,14159,
+   - \( π \) é uma constante matemática aproximadamente igual a 3,14159,
    - \( raio \) é o comprimento do raio do círculo.
 
-Essa fórmula é derivada do conceito de que a área de um círculo é proporcional ao quadrado do raio. Multiplicando o quadrado do raio pelo valor de pi, obtemos a área do círculo.
+Essa fórmula é derivada do conceito de que a área de um círculo é proporcional ao quadrado do raio. Multiplicando o quadrado do raio pelo valor de \( π \), obtemos a área do círculo.
 
-2. Perímetro do Círculo:
+O perímetro de um círculo, também chamado de circunferência, é dado pela fórmula:
    
-   O perímetro de um círculo, também chamado de circunferência, é dado pela fórmula \( P = 2 \times \pi \times raio \), onde:
+   ```
+   P = 2 × π × raio
+   ```
+   
+   Onde:
    - \( P \) é o perímetro do círculo,
-   - \( \pi \) é novamente a constante matemática pi,
+   - \( π \) é novamente a constante matemática pi,
    - \( raio \) é o comprimento do raio do círculo.
 
-Essa fórmula representa o comprimento da linha que forma a borda do círculo, ou seja, a circunferência. Multiplicando o valor de pi pelo diâmetro do círculo (que é o dobro do raio), obtemos o perímetro.
+Essa fórmula representa o comprimento da linha que forma a borda do círculo, ou seja, a circunferência. Multiplicando o valor de \( π \) pelo diâmetro do círculo (que é o dobro do raio), obtemos o perímetro.
+
 
 
 
