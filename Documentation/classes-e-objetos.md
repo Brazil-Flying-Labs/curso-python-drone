@@ -291,4 +291,49 @@ Em seguida, invocamos o método `abastecer(30)` para adicionar 30 litros de comb
 
 Por fim, utilizamos novamente o método `mostrar_nivel_combustivel()` para exibir o novo nível de combustível no tanque do carro após o abastecimento. Se o tanque estiver com 50 litros de combustível após o abastecimento, a saída será "Nível de combustível: 50 litros."
 
+### Faça agora mesmo !
+
+#### Exercício 8.4:
+
+**Exercício de Herança: Animal e seus Tipos**
+
+Imagine que você está desenvolvendo um sistema para um zoológico, e precisa criar uma hierarquia de classes para representar diferentes tipos de animais. Sua tarefa é criar as classes necessárias utilizando o conceito de herança em Python.
+
+1. Defina uma classe base chamada `Animal`, que possui os seguintes atributos:
+   - `nome`: uma string que representa o nome do animal.
+   - `idade`: um inteiro que representa a idade do animal em anos.
+
+2. Crie uma classe derivada chamada `Mamifero`, que herda da classe `Animal`. Esta classe deve ter um atributo adicional:
+   - `tipo_pelo`: uma string que representa o tipo de pelo do mamífero.
+
+3. Crie outra classe derivada chamada `Ave`, que também herda da classe `Animal`. Esta classe deve ter um atributo adicional:
+   - `cor_penas`: uma string que representa a cor das penas da ave.
+
+4. Agora, crie uma classe específica chamada `Cachorro`, que herda da classe `Mamifero`. Esta classe deve ter um método adicional:
+   - `latir()`: que retorna uma mensagem indicando que o cachorro está latindo.
+
+5. Por fim, crie uma classe específica chamada `Papagaio`, que herda da classe `Ave`. Esta classe deve ter um método adicional:
+   - `falar()`: que retorna uma mensagem indicando que o papagaio está falando.
+
+Você precisa criar as classes conforme explicado, garantindo que a herança seja aplicada corretamente. Certifique-se de definir os atributos e métodos de cada classe conforme as especificações fornecidas. Não se esqueça de criar instâncias das classes e testar os métodos adicionais para garantir que funcionem como esperado.
+
+### Curiosidade: As visões criativas de Nikola Tesla
+
+Nikola Tesla nasceu em Smiljan, uma pequena aldeia na região montanhosa de Lika, que hoje pertence à Croácia, em 10 de julho de 1856. Ele foi um inventor, engenheiro elétrico e físico renomado, cujas contribuições tiveram um impacto significativo na história da eletricidade e da tecnologia moderna.
+
+Uma de suas invenções mais marcantes e influentes foi o sistema de corrente alternada (AC), que revolucionou a distribuição de energia elétrica em larga escala. Ao contrário do sistema de corrente contínua (DC) proposto por Thomas Edison, o AC permitia a transmissão de eletricidade a longas distâncias com eficiência, tornando possível o desenvolvimento de redes elétricas em todo o mundo. A implementação do sistema AC de Tesla foi fundamental para a construção de usinas hidrelétricas e para o fornecimento de eletricidade a cidades inteiras, impulsionando a Revolução Industrial e transformando a vida cotidiana das pessoas.
+
+Tesla também é conhecido por muitas outras invenções e descobertas, incluindo a bobina de Tesla, o motor de indução e contribuições importantes para o desenvolvimento da comunicação sem fio e do rádio. Sua genialidade e visão futurista continuam a inspirar cientistas, engenheiros e inventores até os dias de hoje.
+
+Uma curiosidade fascinante sobre Nikola Tesla, o cientista e inventor, é que ele alegou ter tido visões e ideias que o ajudaram a criar algumas de suas invenções mais revolucionárias. Tesla afirmou que muitas de suas ideias e conceitos surgiram em visões vívidas e intuitivas, às vezes acompanhadas por flashes de luz e imagens em sua mente. Ele descreveu essas visões como uma espécie de insight criativo que o guiou no desenvolvimento de tecnologias como a corrente alternada, a bobina de Tesla e o rádio. Essa narrativa sobre a inspiração de Tesla adiciona uma camada de mistério e maravilha à sua já incrível história como um dos maiores gênios da era moderna.
+
+![A Lenda da Maçã e a Descoberta de Newton](/Images/isaac-newton-apple.png "A Lenda da Maçã e a Descoberta de Newton")
+
+### Exercícios práticos
+
+Agora é hora de praticar o que aprendemos! Aqui estão alguns exercícios para você fazer para testar seus conhecimentos.
+
+#### Exercício 8.5:
+Escreva um programa Python que crie uma lista chamada "frutas" contendo os seguintes elementos: "maçã", "banana", "laranja", "uva" e "abacaxi". Em seguida, imprima a lista na tela. 
+
 
