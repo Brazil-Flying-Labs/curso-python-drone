@@ -142,7 +142,7 @@ Ao criar uma instância da classe `Carro` chamada `meu_carro`, ligamos o motor d
 
 Este exemplo demonstra como podemos adicionar funcionalidades dinâmicas e interativas à nossa classe `Carro`, permitindo que os objetos da classe simulem comportamentos realistas de um carro em movimento.
 
-### Faça aogra mesmo !
+### Faça agora mesmo !
 
 #### Exercício 8.1:
 
@@ -192,6 +192,8 @@ A herança proporciona uma forma de reutilização de código, já que as subcla
 
 A herança é uma poderosa ferramenta na POO que nos permite criar hierarquias de classes e organizar o código de forma mais eficiente e modular, promovendo a reutilização, a extensibilidade e a flexibilidade do software.
 
+### Carro Elétrico 
+
 Vamos ver esse conceito na prática com o exemplo de um carro elétrico. Primeiro, utilizaremos a classe `Carro` como a classe base. Essa classe contém atributos comuns a todos os carros, como marca, modelo e ano. Em seguida, criaremos uma classe derivada chamada `CarroEletrico`, que herda da classe `Carro`. Esta nova classe terá funcionalidades específicas para carros elétricos, como a capacidade da bateria e métodos para carregar a bateria e mostrar a carga atual.
 
 ```python
@@ -238,5 +240,55 @@ Em seguida, chamamos o método `acelerar(50)`. No entanto, esse método não est
 Após isso, chamamos o método `mostrar_carga_bateria()`, que está definido na classe `CarroEletrico`. Esse método retorna uma string com a carga atual da bateria do carro elétrico, bem como o percentual correspondente. No momento da chamada, a carga da bateria é de 22.5 kWh, o que representa 30.0% da capacidade total da bateria (75 kWh).
 
 Finalmente, realizamos a operação de carregamento, chamando o método `carregar(20)`. Esse método aumenta a carga da bateria em 20 kWh. Após essa operação, chamamos novamente o método `mostrar_carga_bateria()`, e a saída exibe a carga atual da bateria, que agora é de 42.5 kWh, representando 56.7% da capacidade total da bateria.
+
+### Carro a Combustão
+
+```python
+class Carro:
+    --snip--
+
+class CarroCombustao(Carro):
+    def __init__(self, marca, modelo, ano, capacidade_tanque):
+        super().__init__(marca, modelo, ano)
+        self.capacidade_tanque = capacidade_tanque
+        self.volume_combustivel = 1.3 * capacidade_tanque
+
+    def abastecer(self, volume):
+        if self.volume_combustivel + volume <= self.volume_tanque:
+            self.volume_combustivel += volume
+            return "Abastecimento realizado com sucesso."
+        else:
+            return "Tanque de combustível não comporta esse volume."
+
+    def mostrar_nível_combustivel(self):
+        percentual_combustivel = (self.volume_combustivel / self.capacidade_tanque) * 100
+        return f"Nível de combustível: {self.volume_combustivel:.1f} litros ({percentual_combustivel:.1f}%)."
+
+# Criando um objeto Carro Combustível
+fusion = CarroCombustivel("Ford", "Fusion", 2022, 60)
+
+# Chamando os métodos
+print(fusion.ligar())  # Saída: O motor foi ligado.
+print(fusion.acelerar(50))  # Saída: Acelerando o carro.
+print(fusion.mostrar_nivel_combustivel())  # Saída: Nível de combustível: 20 litros.
+
+# Abastecendo o carro
+fusion.abastecer(30)  # Abastecendo com 30 litros de combustível
+print(fusion.mostrar_nivel_combustivel())  # Saída: Nível de combustível: 50 litros.
+```
+
+Neste exemplo, a classe `CarroCombustao` herda todos os métodos da classe `Carro`, incluindo `ligar()`, `acelerar()` e `descrever()`. Além disso, possui métodos específicos como `abastecer()` para adicionar combustível ao tanque e `mostrar_nivel_combustivel()` para exibir o nível atual de combustível.
+
+Em seguida estamos criando um objeto da classe `CarroCombustivel`, denominado `fusion`. Este carro é um modelo Ford Fusion do ano 2022, com um tanque de capacidade de 60 litros. 
+
+O método `ligar()` é invocado para iniciar o motor do carro. 
+
+Posteriormente, chamamos o método `acelerar(50)`, que acelera o carro em 50 km/h. 
+
+Utilizamos o método `mostrar_nivel_combustivel()` para exibir o nível atual de combustível no tanque do carro. Por exemplo, se o tanque estiver com 20 litros de combustível, a saída será "Nível de combustível: 20 litros."
+
+Em seguida, invocamos o método `abastecer(30)` para adicionar 30 litros de combustível ao tanque do carro. Após o abastecimento, o nível de combustível no tanque será aumentado em 30 litros.
+
+Por fim, utilizamos novamente o método `mostrar_nivel_combustivel()` para exibir o novo nível de combustível no tanque do carro após o abastecimento. Se o tanque estiver com 50 litros de combustível após o abastecimento, a saída será "Nível de combustível: 50 litros."
 
 
