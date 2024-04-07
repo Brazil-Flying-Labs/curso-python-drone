@@ -1,4 +1,4 @@
-## Encontro 9 - Classes e Objetos em Python
+## Encontro 8 - Classes e Objetos em Python
 
 Bem-vindo ao mais um capítulo da nossa jornada na programação com Python! Neste capítulo, vamos mergulhar no fascinante mundo da Programação Orientada a Objetos (POO) e aprender sobre Classes e Objetos.
 
@@ -61,7 +61,7 @@ Essa capacidade de criar cópias separadas dos atributos para cada instancia da 
 
 ### Definindo Métodos
 
-Métodos são funções dentro de uma classe que podem acessar e manipular os dados do objeto. Vamos adicionar um método à nossa classe `Carro` para ligar o motor:
+Métodos são funções dentro de uma classe que podem acessar e manipular os dados particulares daquele objeto. Vamos adicionar um método à nossa classe `Carro` para ligar o motor:
 
 ```python
 class Carro:
@@ -69,7 +69,7 @@ class Carro:
         self.marca = marca
         self.modelo = modelo
         self.ano = ano
-        self.ligado = False
+        self.ligado = False # Inicialmente, o carro está desligado
 
     def descrever(self):
         return f"{self.marca} {self.modelo} {self.ano}"
@@ -83,32 +83,102 @@ meu_carro = Carro("Ford", "Fusion", 2019)
 print(meu_carro.ligar())  # Saída: O motor foi ligado.
 ```
 
-## Exercícios Práticos
+Neste trecho de código, estamos criando uma representação da funcionalidade de ligar o motor de um carro em Python. Primeiramente, definimos um método chamado `ligar()` dentro da classe `Carro`. Dentro deste método, temos uma linha que atribui o valor `True` ao atributo `ligado` do próprio objeto, indicando que o motor foi ligado com sucesso. 
 
-Agora é sua vez de praticar! Abaixo estão alguns exercícios para ajudá-lo a solidificar seus conhecimentos em Classes e Objetos:
+É importante notar que utilizamos o parâmetro `self` dentro da definição do método para nos referirmos ao objeto atual. Assim, `self.ligado` significa que estamos acessando o atributo `ligado` do objeto em questão. 
 
-1. Crie uma classe `Animal` com atributos `nome` e `idade`. Em seguida, crie um objeto dessa classe e imprima suas informações.
-2. Adicione um método `fazer_som` à classe `Animal` que imprima um som característico do animal.
-3. Crie uma classe `Circulo` com um atributo `raio` e métodos para calcular a área e o perímetro do círculo.
+Após a alteração do estado do atributo, o método retorna uma mensagem informando que o motor foi ligado. 
 
-## Conclusão
+Posteriormente, criamos uma instância da classe `Carro` chamada `meu_carro`, representando um carro da marca Ford, modelo Fusion e ano 2019. 
 
-Neste capítulo, exploramos os fundamentos das Classes e Objetos em Python. Aprendemos como definir classes, instanciar objetos, definir métodos e praticamos com alguns exercícios. Compreender esses conceitos é essencial para se tornar um programador Python habilidoso. Continue praticando e explorando novos conceitos para aprimorar suas habilidades de programação!
+Por fim, chamamos o método `ligar()` no objeto `meu_carro`, indicando que queremos ligar o motor deste carro específico. Ao imprimir o resultado, a mensagem "O motor foi ligado." será exibida na tela, confirmando que a operação foi bem-sucedida.
+
+Este exemplo demonstra como os métodos de uma classe podem ser utilizados para realizar ações específicas em objetos individuais, encapsulando o comportamento relacionado a esses objetos dentro da própria classe. Isso proporciona um código mais organizado e modular, facilitando a manutenção e a compreensão do programa como um todo.
+
+Vamos criar um método mais interessante e útil para a classe `Carro` que simula a aceleração. Aqui está o exemplo de código:
+
+```python
+class Carro:
+    def __init__(self, marca, modelo, ano):
+        self.marca = marca
+        self.modelo = modelo
+        self.ano = ano
+        self.ligado = False
+        self.velocidade = 0 # Inicialmente, o carro está parado
+
+    def descrever(self):
+        return f"{self.marca} {self.modelo} {self.ano}"
+
+    def ligar(self):
+        self.ligado = True
+        return "O motor foi ligado."
+
+    def acelerar(self, incremento):
+        if self.velocidade + incremento <= 200:  # Limite de velocidade de 200 km/h
+            self.velocidade += incremento
+            return f"O carro acelerou para {self.velocidade} km/h."
+        else:
+            return "Limite de velocidade excedido. Reduza a velocidade."
+
+# Criar um objeto Carro
+meu_carro = Carro("Ford", "Fusion", 2019)
+
+# Ligar o motor do carro
+print(meu_carro.ligar())  # Saída: O motor foi ligado.
+
+# Acelerar o carro
+print(meu_carro.acelerar(50))  # Saída: O carro acelerou para 50 km/h.
+print(meu_carro.acelerar(80))  # Saída: O carro acelerou para 130 km/h.
+print(meu_carro.acelerar(100)) # Saída: Limite de velocidade excedido. Reduza a velocidade.
+```
+
+Neste exemplo, adicionamos um novo método chamado `acelerar()` à classe `Carro`. Este método recebe um argumento `incremento` que representa o aumento na velocidade do carro em quilômetros por hora (km/h). 
+
+Note que dentro do construtor __init__() da classe Carro, foi adicionado um novo atributo chamado velocidade. Este atributo é inicializado com o valor 0 quando um novo objeto da classe Carro é criado. Isso significa que, sempre que instanciamos um novo carro, ele é criado com uma velocidade inicial igual a zero, indicando que o carro está parado. 
+
+Dentro do método `acelerar()`, verificamos se a velocidade atual do carro somada ao incremento não excede o limite de velocidade de 200 km/h. Se não exceder, incrementamos a velocidade atual do carro e retornamos uma mensagem indicando a nova velocidade do carro. Caso contrário, se o limite de velocidade for excedido, retornamos uma mensagem alertando o usuário para reduzir a velocidade.
+
+Ao criar uma instância da classe `Carro` chamada `meu_carro`, ligamos o motor do carro chamando o método `ligar()`. Em seguida, usamos o método `acelerar()` para aumentar a velocidade do carro em diferentes incrementos e imprimimos o resultado na tela.
+
+Este exemplo demonstra como podemos adicionar funcionalidades dinâmicas e interativas à nossa classe `Carro`, permitindo que os objetos da classe simulem comportamentos realistas de um carro em movimento.
+
+### Faça aogra mesmo !
+
+#### Exercício 8.1:
+
+Crie uma classe `Animal` com atributos `nome` e `idade`. Em seguida, crie um objeto dessa classe e imprima suas informações.
+
+#### Exercício 8.2:
+
+Adicione um método `fazer_som` à classe `Animal` que imprima um som característico do animal.
+
+#### Exercício 8.3:
+
+Crie uma classe `Circulo` com um atributo `raio` e métodos para calcular a área e o perímetro do círculo. Em seguida, crie um objeto dessa classe e imprima essas informações.
+
+Lembre-se das seguintes fórmulas:
+
+1. Área do Círculo:
+   
+   A área de um círculo é dada pela fórmula \( A = \pi \times raio^2 \), onde:
+   - \( A \) é a área do círculo,
+   - \( \pi \) é uma constante matemática aproximadamente igual a 3,14159,
+   - \( raio \) é o comprimento do raio do círculo.
+
+Essa fórmula é derivada do conceito de que a área de um círculo é proporcional ao quadrado do raio. Multiplicando o quadrado do raio pelo valor de pi, obtemos a área do círculo.
+
+2. Perímetro do Círculo:
+   
+   O perímetro de um círculo, também chamado de circunferência, é dado pela fórmula \( P = 2 \times \pi \times raio \), onde:
+   - \( P \) é o perímetro do círculo,
+   - \( \pi \) é novamente a constante matemática pi,
+   - \( raio \) é o comprimento do raio do círculo.
+
+Essa fórmula representa o comprimento da linha que forma a borda do círculo, ou seja, a circunferência. Multiplicando o valor de pi pelo diâmetro do círculo (que é o dobro do raio), obtemos o perímetro.
 
 
 
 
-
-
-### Definindo Classes e Instanciando Objetos
-
-Vamos começar definindo nossas próprias classes em Python. Uma classe é como um modelo que define os atributos e métodos que um objeto terá. Em seguida, aprenderemos como criar instâncias dessas classes, chamadas de objetos, para trabalhar com elas em nosso código.
-
-### Definindo Métodos
-Os métodos são funções definidas dentro de uma classe que realizam operações específicas nos objetos dessa classe. Aprenderemos como definir e usar métodos para interagir com nossos objetos de forma eficiente.
-
-### Exercícios Práticos
-A melhor maneira de entender Classes e Objetos em Python é praticando! Durante este capítulo, teremos vários exercícios práticos em sala de aula para aplicar os conceitos que aprendemos. Vamos criar diferentes classes, instanciar objetos, definir métodos e explorar a herança, um conceito importante na POO.
 
 ### Biblioteca Padrão de Python: Classes Úteis
 Além de criar nossas próprias classes, Python também oferece uma vasta biblioteca padrão com classes úteis prontas para uso. Exploraremos algumas das classes principais dessa biblioteca, como `datetime`, `math` e `random`, e aprenderemos como importá-las em nossos programas para realizar tarefas específicas.
