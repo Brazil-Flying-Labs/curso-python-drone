@@ -156,7 +156,7 @@ A beleza deste programa vai além da simples exibição do número Pi. Ele é um
 
 Agora que você aprendeu sobre abertura de arquivos e leitura de conteúdo em Python, é hora de tornar seus programas mais robustos adicionando tratamento de exceções! Reescreva os exemplos anteriores, mas desta vez adicione blocos de tratamento de exceções para lidar com possíveis erros que possam ocorrer durante a execução do programa.
 
-### Escrevendo em um arquivo
+### Escrevendo em um novo arquivo
 
 Nesta etapa, vamos avançar em nossa jornada de aprendizado e explorar como podemos armazenar informações importantes em arquivos usando Python. Imagine que possuímos o número Pi concatenado, um conjunto valioso de dados que desejamos preservar para uso futuro. Ao invés de apenas exibirmos esse valor na tela, aprenderemos a gravá-lo em um arquivo denominado "pi_concatenado.txt".
 
@@ -189,9 +189,7 @@ A etapa seguinte envolve a escrita dessa string no arquivo "pi_concatenado.txt".
 
 Após a operação de escrita ser concluída com sucesso, uma mensagem é exibida na tela, informando que o número Pi concatenado foi gravado com sucesso no arquivo "pi_concatenado.txt".
 
-Agora, temos o número Pi concatenado armazenado em um arquivo pronto para ser utilizado conforme necessário. 
-
-Vamos criar um outro exemplo onde armazenamos informações em múltiplas linhas em um arquivo. Suponha que queremos armazenar informações sobre pessoas em um arquivo de texto, onde cada linha representa uma pessoa e contém seu nome, idade e cidade.
+Agora vamos criar um outro exemplo onde armazenamos informações em múltiplas linhas em um arquivo. Suponha que queremos armazenar informações sobre pessoas em um arquivo de texto, onde cada linha representa uma pessoa e contém seu nome, idade e cidade.
 
 ```python
 # Dados das pessoas
@@ -213,11 +211,72 @@ with open('pessoas.txt', 'w') as arquivo_saida:
 print("Dados das pessoas foram gravados com sucesso em 'pessoas.txt'!")
 ```
 
-Neste exemplo, após escrever os dados de cada pessoa no arquivo, adicionamos uma quebra de linha `\n`. Além disso, uma outra linha em branco `arquivo_saida.write("\n")` cria uma separação entre as informações de cada pessoa. Isso é feito para tornar o arquivo mais legível, facilitando a identificação de onde uma pessoa termina e a próxima começa.
+Após escrever os dados de cada pessoa no arquivo, adicionamos uma quebra de linha `\n`. Além disso, uma outra quebra de linha `arquivo_saida.write("\n")` cria uma separação entre as informações de cada pessoa. Isso é feito para tornar o arquivo mais legível, facilitando a identificação de onde uma pessoa termina e a próxima começa.
 
 A quebra de linha é representada pelo caractere `\n`, que é um caractere especial que indica uma nova linha no texto. Quando esse caractere é escrito no arquivo, ele faz com que o cursor de escrita avance para a próxima linha, garantindo que a próxima pessoa seja escrita em uma nova linha no arquivo. Isso cria uma separação visual entre as informações de cada pessoa, facilitando a leitura e a compreensão do arquivo.
 
+### Adicionando dados em um arquivo existente
 
+Em Python, para adicionar conteúdo a um arquivo existente sem sobrescrevê-lo, você pode abrir o arquivo no modo de escrita com o parâmetro `'a'` (append). Aqui está como usar a função `open()` com o parâmetro `'a'`:
 
+```python
+with open('arquivo.txt', 'a') as arquivo:
+    arquivo.write("Nova linha a ser adicionada.\n")
+```
 
+Neste exemplo, a função `open()` é utilizada para abrir o arquivo "arquivo.txt" no modo de escrita, mas com o parâmetro `'a'` (append). Isso significa que o Python irá abrir o arquivo para escrita, mas adicionará novos conteúdos ao final do arquivo existente, em vez de sobrescrevê-lo.
+
+Em seguida, a função `write()` é usada para adicionar uma nova linha de texto ao arquivo. É importante incluir o caractere de nova linha ('\n') no final do texto adicionado para garantir que cada adição seja colocada em uma nova linha no arquivo. Isso evita que os novos conteúdos sejam concatenados à última linha existente no arquivo.
+
+### Curiosidade: O Fascinante Papiro de Rhind e o Enigma do Número Pi
+
+O Papiro de Rhind, uma das mais preciosas relíquias do Egito Antigo, é um rolo de papiro datado de aproximadamente 1650 a.C. Esse papiro, também conhecido como Papiro de Ahmes em homenagem ao seu suposto autor, o escriba Ahmes, revela um tesouro de conhecimentos matemáticos e problemas que intrigaram gerações ao longo dos séculos.
+
+Uma das descobertas mais fascinantes contidas neste antigo manuscrito é a referência ao número Pi, uma constante matemática que representa a relação entre a circunferência de um círculo e seu diâmetro. Através de uma fórmula antiga, o Papiro de Rhind fornece uma aproximação surpreendentemente precisa do valor de Pi, embora expresso de forma diferente da que estamos acostumados hoje.
+
+O Papiro de Rhind não é apenas um registro de cálculos matemáticos; é um testemunho da engenhosidade e da busca do conhecimento que impulsionaram as civilizações antigas. No entanto, o mais fascinante é que, apesar de ter sido escrito há milhares de anos, suas lições e desafios matemáticos ainda ecoam nos corredores da educação moderna, inspirando alunos e acadêmicos a explorar os mistérios da matemática.
+
+Uma das curiosidades intrigantes sobre o Papiro de Rhind é a sua origem incerta e a jornada que fez ao longo dos séculos até chegar aos olhos dos estudiosos modernos. Apesar de ser nomeado em homenagem a um escriba chamado Ahmes, sua autoria exata e o contexto de sua criação permanecem envoltos em mistério. Este antigo manuscrito foi adquirido pelo matemático escocês Alexander Henry Rhind em meados do século XIX, durante suas viagens ao Egito. Rhind adquiriu o papiro de um vendedor de antiguidades no Cairo, juntamente com outros artefatos egípcios. Desde então, o Papiro de Rhind foi preservado em várias coleções, incluindo a Biblioteca Britânica em Londres, onde permanece como um tesouro valioso para estudiosos e entusiastas da matemática e da história antiga.
+
+Essa curiosidade sobre a jornada do Papiro de Rhind através do tempo e das mãos de diferentes colecionadores e estudiosos adiciona uma camada fascinante à sua história. É um lembrete do valor dos registros históricos e da importância de preservar e estudar o passado para compreender melhor o presente e o futuro.
+
+![A máquina de Turing](/Images/alan-turing-bombe.png "A máquina de Turing")
+
+### Exercícios práticos
+
+Agora é hora de praticar o que aprendemos! Aqui estão alguns exercícios para você fazer para testar seus conhecimentos.
+
+#### Exercício 8.5:
+
+Escreva um programa Python que solicite ao usuário que insira uma lista de números inteiros separados por vírgula. Em seguida, armazene esses números em um arquivo de texto chamado "numeros.txt", um por linha. Certifique-se de lidar com possíveis erros de entrada do usuário.
+
+Neste exemplo, a `função split(',')` pode ser utilizada para dividir a entrada do usuário em uma lista de strings, utilizando a vírgula como delimitador, criando assim a lista numeros com os números lidos. VOcê pode usar essa lista para escrever os números no arquivo "numeros.txt".
+
+#### Exercício 8.6:
+
+Desenvolva um programa que leia o conteúdo do arquivo "numeros.txt" criado no exercício anterior e exiba a soma de todos os números presentes no arquivo. Caso o arquivo não exista ou ocorra algum problema durante a leitura, exiba uma mensagem amigável ao usuário.
+
+Uma dica útil para você resolver esse problema é utilizar a função int() para converter as strings lidas do arquivo em números inteiros, e depois realizar a soma dos números.
+
+#### Exercício 8.7:
+
+Escreva um programa Python que tente abrir um arquivo chamado "dados.txt" para leitura. Caso o arquivo não exista, exiba uma mensagem informando ao usuário que o arquivo não foi encontrado. Em seguida, continue o programa solicitando ao usuário que insira novos dados e escreva esses dados no arquivo. Não se esqueça de fechar o arquivo corretamente.
+
+#### Exercício 8.8:
+
+Crie um programa que leia um arquivo de texto chamado "texto.txt" e conte o número de palavras presentes no arquivo. Em seguida, exiba esse número para o usuário. Certifique-se de lidar adequadamente com a abertura do arquivo e possíveis erros de leitura.
+
+#### Exercício 8.9:
+
+Desenvolva um programa que permita ao usuário buscar por uma palavra-chave em um arquivo de texto. O programa deve solicitar ao usuário que insira a palavra-chave e, em seguida, verificar se ela está presente no arquivo "texto.txt". Se a palavra-chave for encontrada, o programa deve exibir a linha em que ela está presente. Caso contrário, deve informar que a palavra não foi encontrada.
+
+Um desafio comum ao lidar com arquivos de texto em Python é buscar por uma palavra-chave dentro de um arquivo e exibir a linha em que ela está presente. Para resolver este problema, você pode seguir os seguintes passos:
+
+1. Abertura do Arquivo: Utilize a função `open()` para abrir o arquivo de texto em modo de leitura ('r'). Isso permite que o programa acesse o conteúdo do arquivo.
+
+2. Entrada da Palavra-Chave: Solicite ao usuário que insira a palavra-chave que deseja buscar. Isso pode ser feito utilizando a função `input()`.
+
+3. Busca por Palavra-Chave: Utilize um loop para percorrer cada linha do arquivo de texto. Para cada linha, verifique se a palavra-chave está presente utilizando o método `in` ou o método `find()`.
+
+4. Exibição da Linha: Se a palavra-chave for encontrada em uma linha, exiba essa linha para o usuário. Caso contrário, informe que a palavra não foi encontrada.
 
