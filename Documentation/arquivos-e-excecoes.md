@@ -24,9 +24,9 @@ Para começar, vamos criar manualmente nosso arquivo "numeros_pi.txt" e preench�
 265
 ```
 
-Lembre-se de salvar o arquivo com o nome "numeros_pi.txt".
+Ao criar o arquivo "numeros_pi.txt", é importante considerar que, ao final de cada linha, deve ser incluída uma quebra de linha, representada como `<enter>`. Lembre-se também de salvar o arquivo com o nome "numeros_pi.txt".
 
-Vamos revisar este código para compreender mais detalhes:
+Vamos agora abrir o arquivo, ler o seu conteúdo e exibir na tela:
 
 ```python
 with open('numeros_pi.txt', 'r') as arquivo:
