@@ -107,7 +107,7 @@ Crie um arquivo de texto chamado "introducao.txt" e escreva algumas frases inter
 
 #### Exercício 8.2: 
 
-Peça aos alunos para buscar um texto interessante na internet e copiar e colar esse texto no arquivo "texto.txt". Em seguida, escreva um programa Python que abra o arquivo "texto.txt", leia seu conteúdo e conte o número total de palavras no texto. Eles podem utilizar a função `open()` para abrir o arquivo, `read()` para ler seu conteúdo e `split()` para dividir o texto em palavras. Depois, basta utilizar a função `len()` para contar o número de palavras resultantes da divisão.
+Busque um texto interessante na internet e copiar e colar esse texto no arquivo "texto.txt". Em seguida, escreva um programa Python que abra o arquivo "texto.txt", leia seu conteúdo e conte o número total de palavras no texto. Eles podem utilizar a função `open()` para abrir o arquivo, `read()` para ler seu conteúdo e `split()` para dividir o texto em palavras. Depois, basta utilizar a função `len()` para contar o número de palavras resultantes da divisão.
 
 ### Entendendo Exceções em Python
 
