@@ -99,6 +99,16 @@ Neste exemplo, inicializamos a variável `pi_string` como uma string vazia. Dent
 
 Dessa forma, ao final do loop, `pi_string` conterá todas as linhas do arquivo concatenadas em um único número. Finalmente, imprimimos essa string resultante que representa o número Pi. Esta abordagem é útil quando queremos processar o conteúdo do arquivo de uma maneira diferente, como, por exemplo, para realizar cálculos ou para gerar um número único para Pi como fizemos aqui.
 
+### Faça agora mesmo !
+
+#### Exercício 8.1: 
+
+Crie um arquivo de texto chamado "introducao.txt" e escreva algumas frases interessantes sobre um tema que você goste. Em seguida, escreva um programa Python que abra o arquivo "introducao.txt", leia seu conteúdo e o exiba na tela. Faça uma pequena alteração no arquivo "introducao.txt" e observe como a mudança afeta a saída do programa.
+
+#### Exercício 8.2: 
+
+Peça aos alunos para buscar um texto interessante na internet e copiar e colar esse texto no arquivo "texto.txt". Em seguida, escreva um programa Python que abra o arquivo "texto.txt", leia seu conteúdo e conte o número total de palavras no texto. Eles podem utilizar a função `open()` para abrir o arquivo, `read()` para ler seu conteúdo e `split()` para dividir o texto em palavras. Depois, basta utilizar a função `len()` para contar o número de palavras resultantes da divisão.
+
 ### Entendendo Exceções em Python
 
 Sem tratamento de exceções, se mudarmos o nome do arquivo ou se ele não existir, o Python lançará uma exceção e interromperá a execução do programa. Isso resultará em uma mensagem de erro não tratada, o que pode fazer com que o programa pare de funcionar abruptamente e não forneça nenhuma informação útil sobre o problema.
@@ -112,8 +122,6 @@ FileNotFoundError: [Errno 2] No such file or directory: 'numeros_pi.txt'
 Este erro indica que o arquivo especificado não foi encontrado. Sem tratamento de exceções, o programa simplesmente pararia de funcionar e não continuaríamos a obter o número Pi concatenado como esperado.
 
 Em Python, exceções são eventos que ocorrem durante a execução de um programa e interrompem o fluxo normal de operações devido a algum tipo de erro ou condição anormal. Ao lidar com exceções, podemos controlar como nosso programa responde a situações imprevistas.
-
-Considere o seguinte código, onde tentamos ler o conteúdo de um arquivo e concatenar suas linhas em uma única string representando o número Pi. Se o arquivo especificado não existir ou se ocorrer um erro de entrada/saída durante a leitura do arquivo, nosso programa pode falhar.
 
 Para lidar com essas situações, podemos utilizar blocos `try`, `except` e `else`. No bloco `try`, colocamos o código que queremos executar, enquanto nos blocos `except`, capturamos e tratamos exceções específicas que podem ocorrer durante a execução do código dentro do bloco `try`.
 
@@ -140,9 +148,13 @@ Em Python, um erro de entrada/saída (I/O) ocorre quando há um problema durante
 
 Nos blocos `except`, capturamos essas exceções específicas e exibimos mensagens de erro personalizadas. O bloco `else` é opcional e é executado se nenhum erro ocorrer dentro do bloco `try`, onde imprimimos a string `pi_string` que contém o número Pi lido do arquivo.
 
+A beleza deste programa vai além da simples exibição do número Pi. Ele é um exemplo vivo do poder do tratamento de exceções em Python. Ao envolver nosso código em um escudo protetor de tratamento de exceções, garantimos que mesmo nos momentos mais turbulentos, como quando o arquivo "numeros_pi.txt" não é encontrado ou ocorrem erros de leitura, nosso programa não apenas sobrevive, mas também nos dá a chance de lidar com esses problemas com elegância.
 
+### Faça agora mesmo !
 
+#### Exercício 8.3: 
 
+Agora que você aprendeu sobre abertura de arquivos e leitura de conteúdo em Python, é hora de tornar seus programas mais robustos adicionando tratamento de exceções! Reescreva os exemplos anteriores, mas desta vez adicione blocos de tratamento de exceções para lidar com possíveis erros que possam ocorrer durante a execução do programa.
 
 
 
