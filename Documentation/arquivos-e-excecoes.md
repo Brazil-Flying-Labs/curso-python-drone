@@ -156,6 +156,67 @@ A beleza deste programa vai além da simples exibição do número Pi. Ele é um
 
 Agora que você aprendeu sobre abertura de arquivos e leitura de conteúdo em Python, é hora de tornar seus programas mais robustos adicionando tratamento de exceções! Reescreva os exemplos anteriores, mas desta vez adicione blocos de tratamento de exceções para lidar com possíveis erros que possam ocorrer durante a execução do programa.
 
+### Escrevendo em um arquivo
+
+Nesta etapa, vamos avançar em nossa jornada de aprendizado e explorar como podemos armazenar informações importantes em arquivos usando Python. Imagine que possuímos o número Pi concatenado, um conjunto valioso de dados que desejamos preservar para uso futuro. Ao invés de apenas exibirmos esse valor na tela, aprenderemos a gravá-lo em um arquivo denominado "pi_concatenado.txt".
+
+Ao trabalharmos com a escrita em arquivos, devemos entender alguns conceitos fundamentais. Utilizaremos a função `open()` para abrir um arquivo no modo de escrita, indicando isso por meio do parâmetro `'w'`. Se o arquivo especificado não existir, o Python irá criá-lo automaticamente. A função `write()` será nossa aliada para inserir conteúdo no arquivo aberto para escrita. Neste caso, utilizaremos essa função para gravar o número Pi concatenado no arquivo "pi_concatenado.txt". Após a escrita estar concluída, é crucial fechar o arquivo utilizando o método `close()`. Isso garante que todas as operações de escrita sejam finalizadas corretamente e que recursos associados ao arquivo sejam liberados.
+
+Vamos aplicar esses conceitos em nosso exemplo prático:
+
+```python
+pi_string = ''
+
+try:
+    with open('numeros_pi.txt', 'r') as arquivo:
+        for linha in arquivo:
+            pi_string += linha.strip()  
+except FileNotFoundError as e:
+    print(f"O arquivo 'numeros_pi.txt' não foi encontrado. Erro: {e}")
+except IOError as e:
+    print(f"Erro ao ler o arquivo 'numeros_pi.txt'. Erro: {e}")
+else:
+    with open('pi_concatenado.txt', 'w') as arquivo_saida:
+        arquivo_saida.write(pi_string)
+        print("Número Pi concatenado foi gravado com sucesso em 'pi_concatenado.txt'!")
+``` 
+
+Este código em Python representa um processo essencial na manipulação de arquivos: a leitura de um arquivo existente, o armazenamento de seu conteúdo e a escrita desse conteúdo em um novo arquivo. No contexto específico deste exemplo, o programa lida com o número Pi, que é lido a partir de um arquivo denominado "numeros_pi.txt".
+
+Ao iniciar a execução, o programa tenta abrir o arquivo "numeros_pi.txt" para leitura. Utiliza-se um bloco `try-except` para lidar com possíveis erros durante esse processo, tais como o arquivo não ser encontrado ou ocorrer um erro de leitura. Se o arquivo for aberto com sucesso, o programa itera sobre cada linha do arquivo, removendo espaços em branco e caracteres de nova linha, e concatena essas linhas em uma única string chamada `pi_string`.
+
+A etapa seguinte envolve a escrita dessa string no arquivo "pi_concatenado.txt". Para isso, o programa abre o arquivo em modo de escrita ('w'). Se o arquivo já existir, seu conteúdo anterior será substituído pelo novo conteúdo; caso contrário, um novo arquivo será criado. Em seguida, utiliza-se o método `write()` para gravar o conteúdo da variável `pi_string` no arquivo.
+
+Após a operação de escrita ser concluída com sucesso, uma mensagem é exibida na tela, informando que o número Pi concatenado foi gravado com sucesso no arquivo "pi_concatenado.txt".
+
+Agora, temos o número Pi concatenado armazenado em um arquivo pronto para ser utilizado conforme necessário. 
+
+Vamos criar um outro exemplo onde armazenamos informações em múltiplas linhas em um arquivo. Suponha que queremos armazenar informações sobre pessoas em um arquivo de texto, onde cada linha representa uma pessoa e contém seu nome, idade e cidade.
+
+```python
+# Dados das pessoas
+pessoas = [
+    ["João", 30, "São Paulo"],
+    ["Maria", 25, "Rio de Janeiro"],
+    ["Pedro", 35, "Belo Horizonte"]
+]
+
+# Abre o arquivo para escrita
+with open('pessoas.txt', 'w') as arquivo_saida:
+    # Escreve os dados de cada pessoa no arquivo
+    for pessoa in pessoas:
+        arquivo_saida.write(f"Nome: {pessoa[0]}\n")
+        arquivo_saida.write(f"Idade: {pessoa[1]}\n")
+        arquivo_saida.write(f"Cidade: {pessoa[2]}\n")  
+        arquivo_saida.write("\n")  # Quebra de linha entre as pessoas
+
+print("Dados das pessoas foram gravados com sucesso em 'pessoas.txt'!")
+```
+
+Neste exemplo, após escrever os dados de cada pessoa no arquivo, adicionamos uma quebra de linha `\n`. Além disso, uma outra linha em branco `arquivo_saida.write("\n")` cria uma separação entre as informações de cada pessoa. Isso é feito para tornar o arquivo mais legível, facilitando a identificação de onde uma pessoa termina e a próxima começa.
+
+A quebra de linha é representada pelo caractere `\n`, que é um caractere especial que indica uma nova linha no texto. Quando esse caractere é escrito no arquivo, ele faz com que o cursor de escrita avance para a próxima linha, garantindo que a próxima pessoa seja escrita em uma nova linha no arquivo. Isso cria uma separação visual entre as informações de cada pessoa, facilitando a leitura e a compreensão do arquivo.
+
 
 
 
