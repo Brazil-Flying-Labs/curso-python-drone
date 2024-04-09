@@ -107,11 +107,11 @@ Crie um arquivo de texto chamado "introducao.txt" e escreva algumas frases inter
 
 #### Exercício 8.2: 
 
-Busque um texto interessante na internet e copiar e colar esse texto no arquivo "texto.txt". Em seguida, escreva um programa Python que abra o arquivo "texto.txt", leia seu conteúdo e conte o número total de palavras no texto. Eles podem utilizar a função `open()` para abrir o arquivo, `read()` para ler seu conteúdo e `split()` para dividir o texto em palavras. Depois, basta utilizar a função `len()` para contar o número de palavras resultantes da divisão.
+Busque um texto interessante na internet, copie e cole esse texto no arquivo "texto.txt". Em seguida, escreva um programa Python que abra o arquivo "texto.txt", leia seu conteúdo e conte o número total de palavras no texto. VOcê pode utilizar a função `open()` para abrir o arquivo, `read()` para ler seu conteúdo e `split()` para dividir o texto em palavras. Depois, basta utilizar a função `len()` para contar o número de palavras resultantes da divisão.
 
 ### Entendendo Exceções em Python
 
-Sem tratamento de exceções, se mudarmos o nome do arquivo ou se ele não existir, o Python lançará uma exceção e interromperá a execução do programa. Isso resultará em uma mensagem de erro não tratada, o que pode fazer com que o programa pare de funcionar abruptamente e não forneça nenhuma informação útil sobre o problema.
+Sem tratamento de exceções, se mudarmos o nome do arquivo sendo lido nos exemplos anteriores, ou se eles não existirem, o Python lançará uma exceção e interromperá a execução do programa. Isso resultará em uma mensagem de erro não tratada, o que pode fazer com que o programa pare de funcionar abruptamente e não forneça nenhuma informação útil sobre o problema.
 
 Se, por exemplo, o arquivo "numeros_pi.txt" for renomeado para "numeros_pi2.txt" e tentarmos executar o código original sem tratamento de exceções, receberíamos um erro semelhante ao seguinte:
 
@@ -144,7 +144,7 @@ else:
 
 Dentro do bloco `try`, tentamos abrir e ler o arquivo "numeros_pi.txt". Se o arquivo não for encontrado, uma exceção `FileNotFoundError` será levantada. Se ocorrer um erro de entrada/saída durante a leitura do arquivo, uma exceção `IOError` será levantada. 
 
-Em Python, um erro de entrada/saída (I/O) ocorre quando há um problema durante a operação de leitura ou escrita de dados em um arquivo ou dispositivo de entrada/saída, como um disco rígido, uma rede ou um dispositivo USB. Esses erros podem surgir de várias maneiras, como arquivos que não podem ser abertos, permissões de arquivo inadequadas, dispositivos que não estão disponíveis ou interrupções na comunicação de rede. No contexto do exemplo dado, um erro de entrada/saída poderia ocorrer, por exemplo, se tentássemos ler um arquivo que está corrompido, se não tivermos permissões suficientes para acessar o arquivo ou se o disco no qual o arquivo está armazenado estiver cheio ou danificado.
+Em Python, um erro de entrada/saída `IOError` ocorre quando há um problema durante a operação de leitura ou escrita de dados em um arquivo ou dispositivo de entrada/saída, como um disco rígido, uma rede ou um dispositivo USB. Esses erros podem surgir de várias maneiras, como arquivos que não podem ser abertos, permissões de arquivo inadequadas, dispositivos que não estão disponíveis ou interrupções na comunicação de rede. No contexto do exemplo dado, um erro de entrada/saída poderia ocorrer, por exemplo, se tentássemos ler um arquivo que está corrompido, se não tivermos permissões suficientes para acessar o arquivo ou se o disco no qual o arquivo está armazenado estiver cheio ou danificado.
 
 Nos blocos `except`, capturamos essas exceções específicas e exibimos mensagens de erro personalizadas. O bloco `else` é opcional e é executado se nenhum erro ocorrer dentro do bloco `try`, onde imprimimos a string `pi_string` que contém o número Pi lido do arquivo.
 
@@ -154,13 +154,13 @@ A beleza deste programa vai além da simples exibição do número Pi. Ele é um
 
 #### Exercício 8.3: 
 
-Agora que você aprendeu sobre abertura de arquivos e leitura de conteúdo em Python, é hora de tornar seus programas mais robustos adicionando tratamento de exceções! Reescreva os exemplos anteriores, mas desta vez adicione blocos de tratamento de exceções para lidar com possíveis erros que possam ocorrer durante a execução do programa.
+Agora que você aprendeu sobre abertura de arquivos e leitura de conteúdo em Python, é hora de tornar seus programas mais robustos adicionando tratamento de exceções! Reescreva os exercícios 8.1 e 8.2 anteriores, mas desta vez adicione blocos de tratamento de exceções para lidar com possíveis erros que possam ocorrer durante a execução do programa.
 
 ### Escrevendo em um novo arquivo
 
 Nesta etapa, vamos avançar em nossa jornada de aprendizado e explorar como podemos armazenar informações importantes em arquivos usando Python. Imagine que possuímos o número Pi concatenado, um conjunto valioso de dados que desejamos preservar para uso futuro. Ao invés de apenas exibirmos esse valor na tela, aprenderemos a gravá-lo em um arquivo denominado "pi_concatenado.txt".
 
-Ao trabalharmos com a escrita em arquivos, devemos entender alguns conceitos fundamentais. Utilizaremos a função `open()` para abrir um arquivo no modo de escrita, indicando isso por meio do parâmetro `'w'`. Se o arquivo especificado não existir, o Python irá criá-lo automaticamente. A função `write()` será nossa aliada para inserir conteúdo no arquivo aberto para escrita. Neste caso, utilizaremos essa função para gravar o número Pi concatenado no arquivo "pi_concatenado.txt". Após a escrita estar concluída, é crucial fechar o arquivo utilizando o método `close()`. Isso garante que todas as operações de escrita sejam finalizadas corretamente e que recursos associados ao arquivo sejam liberados.
+Ao trabalharmos com a escrita em arquivos, devemos entender alguns conceitos fundamentais. Utilizaremos a função `open()` para abrir um arquivo no modo de escrita, indicando isso por meio do parâmetro `'w'`. Se o arquivo especificado não existir, o Python irá criá-lo automaticamente. A função `write()` será nossa aliada para inserir conteúdo no arquivo aberto para escrita. Neste caso, utilizaremos essa função para gravar o número Pi concatenado no arquivo "pi_concatenado.txt". 
 
 Vamos aplicar esses conceitos em nosso exemplo prático:
 
@@ -181,7 +181,7 @@ else:
         print("Número Pi concatenado foi gravado com sucesso em 'pi_concatenado.txt'!")
 ``` 
 
-Este código em Python representa um processo essencial na manipulação de arquivos: a leitura de um arquivo existente, o armazenamento de seu conteúdo e a escrita desse conteúdo em um novo arquivo. No contexto específico deste exemplo, o programa lida com o número Pi, que é lido a partir de um arquivo denominado "numeros_pi.txt".
+Este código em Python representa um processo essencial na manipulação de arquivos: a leitura de um arquivo existente, o processamento de seu conteúdo e a escrita desse conteúdo em um novo arquivo. No contexto específico deste exemplo, o programa lida com o número Pi, que é lido a partir de um arquivo denominado "numeros_pi.txt".
 
 Ao iniciar a execução, o programa tenta abrir o arquivo "numeros_pi.txt" para leitura. Utiliza-se um bloco `try-except` para lidar com possíveis erros durante esse processo, tais como o arquivo não ser encontrado ou ocorrer um erro de leitura. Se o arquivo for aberto com sucesso, o programa itera sobre cada linha do arquivo, removendo espaços em branco e caracteres de nova linha, e concatena essas linhas em uma única string chamada `pi_string`.
 
@@ -240,8 +240,6 @@ Uma das curiosidades intrigantes sobre o Papiro de Rhind é a sua origem incerta
 
 Essa curiosidade sobre a jornada do Papiro de Rhind através do tempo e das mãos de diferentes colecionadores e estudiosos adiciona uma camada fascinante à sua história. É um lembrete do valor dos registros históricos e da importância de preservar e estudar o passado para compreender melhor o presente e o futuro.
 
-![A máquina de Turing](/Images/alan-turing-bombe.png "A máquina de Turing")
-
 ### Exercícios práticos
 
 Agora é hora de praticar o que aprendemos! Aqui estão alguns exercícios para você fazer para testar seus conhecimentos.
@@ -260,7 +258,7 @@ Uma dica útil para você resolver esse problema é utilizar a função int() pa
 
 #### Exercício 8.7:
 
-Escreva um programa Python que tente abrir um arquivo chamado "dados.txt" para leitura. Caso o arquivo não exista, exiba uma mensagem informando ao usuário que o arquivo não foi encontrado. Em seguida, continue o programa solicitando ao usuário que insira novos dados e escreva esses dados no arquivo. Não se esqueça de fechar o arquivo corretamente.
+Escreva um programa Python que tente abrir um arquivo chamado "dados.txt" para escrita. Em seguida, continue o programa solicitando ao usuário que insira novos dados e escreva esses dados no arquivo. 
 
 #### Exercício 8.8:
 
