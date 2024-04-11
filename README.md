@@ -11,6 +11,7 @@ Tópicos:
 - História e importância do Python
 - Configuração do ambiente Python - Repl.it  
 
+  
 **Encontro 2: Variáveis e Tipos de Dados**  
 Material didático: Coletivo min@ Capítulo 2  
 Vídeos YouTube: #3, #4 e #5, #25  
