@@ -83,7 +83,7 @@ Tópicos:
 - Exercícios práticos  
 
 **Capítulo 8: Classes e Objetos**  
-Material didático: https://github.com/Brazil-Flying-Labs/curso-python-drone/tree/main/Documentation 
+Material didático: https://github.com/Brazil-Flying-Labs/curso-python-drone/tree/main/Documentation  
 Vídeos YouTube: #37  
 YouTube Playlist: https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_  
 Tópicos:  
@@ -93,7 +93,7 @@ Tópicos:
 - Exercícios práticos  
 
 **Capítulo 9: Arquivos e Exceções**  
-Material didático: https://github.com/Brazil-Flying-Labs/curso-python-drone/blob/main/Documentation/09-arquivos-e-excecoes.md 
+Material didático: https://github.com/Brazil-Flying-Labs/curso-python-drone/blob/main/Documentation/09-arquivos-e-excecoes.md  
 Vídeos YouTube: #41, #43, #44, #45  
 YouTube Playlist: https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_  
 Tópicos:  
