@@ -1,4 +1,4 @@
-## Capítulo 7 - Funções e Módulos
+## Funções e Módulos
 
 Neste capítulo, vamos explorar detalhadamente as funções em Python, uma das características mais poderosas da linguagem. As funções permitem organizar o código em blocos reutilizáveis, facilitando a manutenção e a modularidade do seu programa. Abordaremos como criar funções, passar argumentos para elas, armazená-las em módulos e importá-las de diferentes formas.
 
