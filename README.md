@@ -2,7 +2,8 @@
 
 Parte do material didático está armazenada nesse repositório Git. Você não precisa acessar esse material diretamente, pois as instruções serão fornecidas com os links em cada capítulo. No entanto, se desejar acessar diretamente o repositório, as aulas estão dentro da pasta `Documentation`.
 
-Encontro 1: Introdução à Programação em Python
+Encontro 1: Introdução à Programação em Python  
+Material didático: Coletivo min@ Capítulo 1
 Tópicos:
 - Apresentação do material - Coletivo min@
 - Introdução à programação
@@ -10,7 +11,7 @@ Tópicos:
 - História e importância do Python
 - Configuração do ambiente Python - Repl.it
 
-Encontro 2: Variáveis e Tipos de Dados
+Encontro 2: Variáveis e Tipos de Dados  
 Material didático: Coletivo min@ Capítulo 2
 Vídeos YouTube: #3, #4 e #5, #25
 YouTube Playlist: https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_
