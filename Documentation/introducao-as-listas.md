@@ -1,4 +1,4 @@
-## Encontro 3 - Introdução às Listas
+## Capítulo 3 - Introdução às Listas
 
 Hoje vamos explorar um dos conceitos mais importantes da linguagem Python: listas. As listas são estruturas de dados fundamentais que permitem armazenar coleções de elementos de forma ordenada e acessível. Durante esta aula, vamos aprender sobre o que são listas, como adicionar e remover elementos, ordenar uma lista e fatiar uma lista. Além disso, vamos praticar com alguns exercícios práticos para reforçar o que aprendemos.
 
