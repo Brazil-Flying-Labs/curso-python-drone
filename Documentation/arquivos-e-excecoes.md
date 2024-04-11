@@ -240,6 +240,8 @@ Uma das curiosidades intrigantes sobre o Papiro de Rhind é a sua origem incerta
 
 Essa curiosidade sobre a jornada do Papiro de Rhind através do tempo e das mãos de diferentes colecionadores e estudiosos adiciona uma camada fascinante à sua história. É um lembrete do valor dos registros históricos e da importância de preservar e estudar o passado para compreender melhor o presente e o futuro.
 
+![O Fascinante Papiro de Rhind e o Enigma do Número Pi](/Images/papiro-rhind-pi.jpg "O Fascinante Papiro de Rhind e o Enigma do Número Pi")
+
 ### Exercícios práticos
 
 Agora é hora de praticar o que aprendemos! Aqui estão alguns exercícios para você fazer para testar seus conhecimentos.
