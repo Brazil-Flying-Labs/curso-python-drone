@@ -12,7 +12,7 @@ Tópicos:
 - Configuração do ambiente Python - Repl.it  
   
   
-  **Encontro 2: Variáveis e Tipos de Dados**  
+**Encontro 2: Variáveis e Tipos de Dados**  
 Material didático: Coletivo min@ Capítulo 2  
 Vídeos YouTube: #3, #4 e #5, #25  
 YouTube Playlist: https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_  
