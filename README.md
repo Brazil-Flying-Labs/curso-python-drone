@@ -29,9 +29,9 @@ Tópicos:
 - Exercícios práticos  
 
 **Capítulo 3: Introdução às Listas**  
-Material didático: https://github.com/Brazil-Flying-Labs/curso-python-drone/blob/main/Documentation/03-introducao-as-listas.md  
+Material didático: <https://github.com/Brazil-Flying-Labs/curso-python-drone/blob/main/Documentation/03-introducao-as-listas.md>  
 Vídeos YouTube: #6, #7 e #8  
-YouTube Playlist: https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_  
+YouTube Playlist: <https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_>  
 Tópicos:
 - O que são listas?
 - Adicionando e removendo elementos
@@ -42,7 +42,7 @@ Tópicos:
 **Capítulo 4: Operadores Relacionais, Lógicos e Estruturas Condicionais**  
 Material didático: Coletivo min@ Capítulo 3  
 Vídeos YouTube: #13, #14 e #16  
-YouTube Playlist: https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_  
+YouTube Playlist: <https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_>  
 Tópicos:
 - Operadores relacionais
 - Operadores lógicos
@@ -52,7 +52,7 @@ Tópicos:
 **Capítulo 5: Estruturas de repetição: Range, Laço de Repetição For e Break**  
 Material didático: Coletivo min@ Capítulo 4  
 Vídeos YouTube: #9, #10 e #15  
-YouTube Playlist: https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_  
+YouTube Playlist: <https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_>  
 Tópicos:  
 - O que são estruturas de repetição? 
 - O comando “range”
@@ -64,7 +64,7 @@ Tópicos:
 **Capítulo 6: While e Contadores**  
 Material didático: Coletivo min@ Capítulo 5  
 Vídeos YouTube: #26, #27, #28 e #30  
-YouTube Playlist: https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_  
+YouTube Playlist: <https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_>  
 Tópicos:  
 - O comando “while”
 - Contadores com “while”
@@ -72,9 +72,9 @@ Tópicos:
 - Exercícios práticos  
 
 **Capítulo 7: Funções e Módulos**  
-Material didático: https://github.com/Brazil-Flying-Labs/curso-python-drone/blob/main/Documentation/07-funcoes-e-modulos.md  
+Material didático: <https://github.com/Brazil-Flying-Labs/curso-python-drone/blob/main/Documentation/07-funcoes-e-modulos.md>  
 Vídeos YouTube: #31, #32, #33, #34 e #36  
-YouTube Playlist: https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_  
+YouTube Playlist: <https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_>  
 Tópicos:  
 - Criando uma função em Python
 - Passando argumentos para funções
@@ -83,9 +83,9 @@ Tópicos:
 - Exercícios práticos  
 
 **Capítulo 8: Classes e Objetos**  
-Material didático: https://github.com/Brazil-Flying-Labs/curso-python-drone/tree/main/Documentation  
+Material didático: <https://github.com/Brazil-Flying-Labs/curso-python-drone/blob/main/Documentation/08-classes-e-objetos.md>  
 Vídeos YouTube: #37  
-YouTube Playlist: https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_  
+YouTube Playlist: <https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_>  
 Tópicos:  
 - Fundamentos da POO
 - Definindo classes e instanciando objetos
@@ -93,9 +93,9 @@ Tópicos:
 - Exercícios práticos  
 
 **Capítulo 9: Arquivos e Exceções**  
-Material didático: https://github.com/Brazil-Flying-Labs/curso-python-drone/blob/main/Documentation/09-arquivos-e-excecoes.md  
+Material didático: <https://github.com/Brazil-Flying-Labs/curso-python-drone/blob/main/Documentation/09-arquivos-e-excecoes.md>  
 Vídeos YouTube: #41, #43, #44, #45  
-YouTube Playlist: https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_  
+YouTube Playlist: <https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_>  
 Tópicos:  
 - Lendo de um arquivo
 - Escrevendo em um arquivo
