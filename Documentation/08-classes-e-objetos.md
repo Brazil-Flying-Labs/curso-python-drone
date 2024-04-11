@@ -1,4 +1,4 @@
-## Capítulo 8 - Classes e Objetos em Python
+## Capítulo 8 - Classes e Objetos
 
 Bem-vindo ao mais um capítulo da nossa jornada na programação com Python! Neste capítulo, vamos mergulhar no fascinante mundo da Programação Orientada a Objetos (POO) e aprender sobre Classes e Objetos.
 
