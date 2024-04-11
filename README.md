@@ -29,7 +29,7 @@ Tópicos:
 - Exercícios práticos  
 
 **Encontro 3: Introdução às Listas**  
-Material didático: <https://github.com/Brazil-Flying-Labs/curso-python-drone/blob/main/Documentation/03-introducao-as-listas.md>  
+Material didático: <https://github.com/Brazil-Flying-Labs/curso-python-drone/blob/main/Documentation/introducao-as-listas.md>  
 Vídeos YouTube: #6, #7 e #8  
 YouTube Playlist: <https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_>  
 Tópicos:
@@ -72,7 +72,7 @@ Tópicos:
 - Exercícios práticos  
 
 **Encontro 7: Funções e Módulos**  
-Material didático: <https://github.com/Brazil-Flying-Labs/curso-python-drone/blob/main/Documentation/07-funcoes-e-modulos.md>  
+Material didático: <https://github.com/Brazil-Flying-Labs/curso-python-drone/blob/main/Documentation/funcoes-e-modulos.md>  
 Vídeos YouTube: #31, #32, #33, #34 e #36  
 YouTube Playlist: <https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_>  
 Tópicos:  
@@ -83,7 +83,7 @@ Tópicos:
 - Exercícios práticos  
 
 **Encontro 8: Classes e Objetos**  
-Material didático: <https://github.com/Brazil-Flying-Labs/curso-python-drone/blob/main/Documentation/08-classes-e-objetos.md>  
+Material didático: <https://github.com/Brazil-Flying-Labs/curso-python-drone/blob/main/Documentation/classes-e-objetos.md>  
 Vídeos YouTube: #37  
 YouTube Playlist: <https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_>  
 Tópicos:  
@@ -93,7 +93,7 @@ Tópicos:
 - Exercícios práticos  
 
 **Encontro 9: Arquivos e Exceções**  
-Material didático: <https://github.com/Brazil-Flying-Labs/curso-python-drone/blob/main/Documentation/09-arquivos-e-excecoes.md>  
+Material didático: <https://github.com/Brazil-Flying-Labs/curso-python-drone/blob/main/Documentation/arquivos-e-excecoes.md>  
 Vídeos YouTube: #41, #43, #44, #45  
 YouTube Playlist: <https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_>  
 Tópicos:  
