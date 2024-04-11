@@ -20,7 +20,7 @@ Tópicos:
 **Capítulo 2: Variáveis e Tipos de Dados**  
 Material didático: Coletivo min@ Capítulo 2  
 Vídeos YouTube: #3, #4 e #5, #25  
-YouTube Playlist: https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_  
+YouTube Playlist: <https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_>  
 Tópicos:
 - O que são variáveis?
 - Tipos de dados simples
