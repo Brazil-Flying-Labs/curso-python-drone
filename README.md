@@ -8,7 +8,7 @@ Durante as aulas, você aprenderá a escrever código Python eficiente e elegant
 
 Estamos animados para tê-lo conosco nesta jornada e mal podemos esperar para ver o que você será capaz de realizar com suas novas habilidades em programação de drones. Vamos decolar juntos e explorar as possibilidades infinitas que o mundo da programação e dos drones tem a oferecer!
 
-**Capítulo 1: Introdução à Programação em Python**  
+**Encontro 1: Introdução à Programação em Python**  
 Material didático: Coletivo min@ Capítulo 1  
 Tópicos:
 - Apresentação do material - Coletivo min@
@@ -17,7 +17,7 @@ Tópicos:
 - História e importância do Python
 - Configuração do ambiente Python - Repl.it
 
-**Capítulo 2: Variáveis e Tipos de Dados**  
+**Encontro 2: Variáveis e Tipos de Dados**  
 Material didático: Coletivo min@ Capítulo 2  
 Vídeos YouTube: #3, #4 e #5, #25  
 YouTube Playlist: <https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_>  
@@ -28,7 +28,7 @@ Tópicos:
 - Entrada e saída de dados
 - Exercícios práticos  
 
-**Capítulo 3: Introdução às Listas**  
+**Encontro 3: Introdução às Listas**  
 Material didático: <https://github.com/Brazil-Flying-Labs/curso-python-drone/blob/main/Documentation/03-introducao-as-listas.md>  
 Vídeos YouTube: #6, #7 e #8  
 YouTube Playlist: <https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_>  
@@ -39,7 +39,7 @@ Tópicos:
 - Fatiando uma lista
 - Exercícios práticos  
 
-**Capítulo 4: Operadores Relacionais, Lógicos e Estruturas Condicionais**  
+**Encontro 4: Operadores Relacionais, Lógicos e Estruturas Condicionais**  
 Material didático: Coletivo min@ Capítulo 3  
 Vídeos YouTube: #13, #14 e #16  
 YouTube Playlist: <https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_>  
@@ -49,7 +49,7 @@ Tópicos:
 - Estruturas condicionais
 - Exercícios práticos  
 
-**Capítulo 5: Estruturas de repetição: Range, Laço de Repetição For e Break**  
+**Encontro 5: Estruturas de repetição: Range, Laço de Repetição For e Break**  
 Material didático: Coletivo min@ Capítulo 4  
 Vídeos YouTube: #9, #10 e #15  
 YouTube Playlist: <https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_>  
@@ -61,7 +61,7 @@ Tópicos:
 - O comando “break”
 - Exercícios práticos  
 
-**Capítulo 6: While e Contadores**  
+**Encontro 6: While e Contadores**  
 Material didático: Coletivo min@ Capítulo 5  
 Vídeos YouTube: #26, #27, #28 e #30  
 YouTube Playlist: <https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_>  
@@ -71,7 +71,7 @@ Tópicos:
 - Apêndice: Composição de strings
 - Exercícios práticos  
 
-**Capítulo 7: Funções e Módulos**  
+**Encontro 7: Funções e Módulos**  
 Material didático: <https://github.com/Brazil-Flying-Labs/curso-python-drone/blob/main/Documentation/07-funcoes-e-modulos.md>  
 Vídeos YouTube: #31, #32, #33, #34 e #36  
 YouTube Playlist: <https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_>  
@@ -82,7 +82,7 @@ Tópicos:
 - Importando de módulos e funções
 - Exercícios práticos  
 
-**Capítulo 8: Classes e Objetos**  
+**Encontro 8: Classes e Objetos**  
 Material didático: <https://github.com/Brazil-Flying-Labs/curso-python-drone/blob/main/Documentation/08-classes-e-objetos.md>  
 Vídeos YouTube: #37  
 YouTube Playlist: <https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_>  
@@ -92,7 +92,7 @@ Tópicos:
 - Definindo Métodos
 - Exercícios práticos  
 
-**Capítulo 9: Arquivos e Exceções**  
+**Encontro 9: Arquivos e Exceções**  
 Material didático: <https://github.com/Brazil-Flying-Labs/curso-python-drone/blob/main/Documentation/09-arquivos-e-excecoes.md>  
 Vídeos YouTube: #41, #43, #44, #45  
 YouTube Playlist: <https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_>  
@@ -102,7 +102,7 @@ Tópicos:
 - O que são Exceções?
 - Exercícios práticos  
 
-**Capítulo 10: Projeto Prático - Minidrones em Python**  
+**Encontro 10: Projeto Prático - Minidrones em Python**  
 Material didático: Criar material  
 Tópicos:  
 - Apresentação da We Robotics / Flying Labs / Brazil Flying Labs
@@ -114,7 +114,7 @@ Tópicos:
 - Como programar um roteiro de voo?
 - Desafio prático 1 e 2 em grupo  
 
-**Capítulo 11: Apresentação dos Projetos - Minidrones em Python**  
+**Encontro 11: Apresentação dos Projetos - Minidrones em Python**  
 Material didático: Criar material  
 Tópicos:  
 - Desafio projeto final em grupo
