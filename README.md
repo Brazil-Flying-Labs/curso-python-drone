@@ -4,7 +4,7 @@ Parte do material didático está armazenada nesse repositório Git. Você não 
 
 Encontro 1: Introdução à Programação em Python  
 Material didático: Coletivo min@ Capítulo 1  
-Tópicos:  
+Tópicos:
 - Apresentação do material - Coletivo min@
 - Introdução à programação
 - Lógica de programação
@@ -15,7 +15,7 @@ Encontro 2: Variáveis e Tipos de Dados
 Material didático: Coletivo min@ Capítulo 2  
 Vídeos YouTube: #3, #4 e #5, #25  
 YouTube Playlist: https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_  
-Tópicos:  
+Tópicos:
 - O que são variáveis?
 - Tipos de dados simples
 - Operadores aritméticos
@@ -26,7 +26,7 @@ Encontro 3: Introdução às Listas
 Material didático: https://github.com/camargo-advanced/curso-python/blob/main/Documentation/introducao-as-listas.md  
 Vídeos YouTube: #6, #7 e #8  
 YouTube Playlist: https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_  
-Tópicos:  
+Tópicos:
 - O que são listas?
 - Adicionando e removendo elementos
 - Ordenando uma lista
@@ -37,7 +37,7 @@ Encontro 4: Operadores Relacionais, Lógicos e Estruturas Condicionais
 Material didático: Coletivo min@ Capítulo 3  
 Vídeos YouTube: #13, #14 e #16  
 YouTube Playlist: https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_  
-Tópicos:  
+Tópicos:
 - Operadores relacionais
 - Operadores lógicos
 - Estruturas condicionais
