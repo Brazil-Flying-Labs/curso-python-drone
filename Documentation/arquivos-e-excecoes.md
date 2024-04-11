@@ -1,4 +1,4 @@
-## Encontro 9 - Explorando Arquivos e Tratando Exceções
+## Explorando Arquivos e Tratando Exceções
 
 Neste capítulo vamos explorar uma das funcionalidades mais poderosas e empolgantes da linguagem Python: o manuseio de arquivos e o tratamento de exceções. Prepare-se para desvendar os segredos dos arquivos e descobrir como lidar com imprevistos de forma inteligente e eficaz. Ao longo deste capítulo, vamos aprender a ler e escrever em arquivos, mergulhando no mundo de possibilidades que eles nos proporcionam. Além disso, vamos desvendar o conceito de exceções e dominar as técnicas para lidar com elas com maestria. Prontos para essa aventura emocionante? Então, vamos lá!
 
