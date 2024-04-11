@@ -29,7 +29,7 @@ Tópicos:
 - Exercícios práticos  
 
 **Capítulo 3: Introdução às Listas**  
-Material didático: https://github.com/camargo-advanced/curso-python/blob/main/Documentation/introducao-as-listas.md  
+Material didático: [https://github.com/camargo-advanced/curso-python/blob/main/Documentation/introducao-as-listas.md](https://github.com/Brazil-Flying-Labs/curso-python-drone/blob/main/Documentation/03-introducao-as-listas.md)  
 Vídeos YouTube: #6, #7 e #8  
 YouTube Playlist: https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_  
 Tópicos:
