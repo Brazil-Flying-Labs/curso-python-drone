@@ -1,18 +1,23 @@
 # Curso Python: Lógica de Programação em Python
 
-Parte do material didático está armazenada nesse repositório Git. Você não precisa acessar esse material diretamente, pois as instruções serão fornecidas com os links em cada capítulo. No entanto, se desejar acessar diretamente o repositório, as aulas estão dentro da pasta `Documentation`.
+Bem-vindo ao curso de Python oferecido pelo Flying Labs!
 
-**Encontro 1: Introdução à Programação em Python**  
+Você está prestes a embarcar em uma jornada emocionante de aprendizado de programação, explorando os fundamentos da linguagem Python e suas aplicações empolgantes na programação de drones. Neste curso, você será guiado por instrutores experientes que irão ajudá-lo a dominar os conceitos essenciais de Python, desde o básico até técnicas avançadas.
+
+Durante as aulas, você aprenderá a escrever código Python eficiente e elegante, adquirindo habilidades práticas que o prepararão para programar e controlar drones. Ao final do curso, você estará apto a criar e executar programas para controlar drones de forma autônoma.
+
+Estamos animados para tê-lo conosco nesta jornada e mal podemos esperar para ver o que você será capaz de realizar com suas novas habilidades em programação de drones. Vamos decolar juntos e explorar as possibilidades infinitas que o mundo da programação e dos drones tem a oferecer!
+
+**Capítulo 1: Introdução à Programação em Python**  
 Material didático: Coletivo min@ Capítulo 1  
 Tópicos:
 - Apresentação do material - Coletivo min@
 - Introdução à programação
 - Lógica de programação
 - História e importância do Python
-- Configuração do ambiente Python - Repl.it  
-  
-  
-**Encontro 2: Variáveis e Tipos de Dados**  
+- Configuração do ambiente Python - Repl.it
+
+**Capítulo 2: Variáveis e Tipos de Dados**  
 Material didático: Coletivo min@ Capítulo 2  
 Vídeos YouTube: #3, #4 e #5, #25  
 YouTube Playlist: https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_  
@@ -23,7 +28,7 @@ Tópicos:
 - Entrada e saída de dados
 - Exercícios práticos  
 
-**Encontro 3: Introdução às Listas**  
+**Capítulo 3: Introdução às Listas**  
 Material didático: https://github.com/camargo-advanced/curso-python/blob/main/Documentation/introducao-as-listas.md  
 Vídeos YouTube: #6, #7 e #8  
 YouTube Playlist: https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_  
@@ -34,7 +39,7 @@ Tópicos:
 - Fatiando uma lista
 - Exercícios práticos  
 
-**Encontro 4: Operadores Relacionais, Lógicos e Estruturas Condicionais**  
+**Capítulo 4: Operadores Relacionais, Lógicos e Estruturas Condicionais**  
 Material didático: Coletivo min@ Capítulo 3  
 Vídeos YouTube: #13, #14 e #16  
 YouTube Playlist: https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_  
@@ -44,7 +49,7 @@ Tópicos:
 - Estruturas condicionais
 - Exercícios práticos  
 
-**Encontro 5: Estruturas de repetição: Range, Laço de Repetição For e Break**  
+**Capítulo 5: Estruturas de repetição: Range, Laço de Repetição For e Break**  
 Material didático: Coletivo min@ Capítulo 4  
 Vídeos YouTube: #9, #10 e #15  
 YouTube Playlist: https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_  
@@ -56,7 +61,7 @@ Tópicos:
 - O comando “break”
 - Exercícios práticos  
 
-**Encontro 6: While e Contadores**  
+**Capítulo 6: While e Contadores**  
 Material didático: Coletivo min@ Capítulo 5  
 Vídeos YouTube: #26, #27, #28 e #30  
 YouTube Playlist: https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_  
@@ -66,7 +71,7 @@ Tópicos:
 - Apêndice: Composição de strings
 - Exercícios práticos  
 
-**Encontro 7: Funções e Módulos**  
+**Capítulo 7: Funções e Módulos**  
 Material didático: https://github.com/camargo-advanced/curso-python/blob/main/Documentation/funcoes-e-modulos.md  
 Vídeos YouTube: #31, #32, #33, #34 e #36  
 YouTube Playlist: https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_  
@@ -77,7 +82,7 @@ Tópicos:
 - Importando de módulos e funções
 - Exercícios práticos  
 
-**Encontro 8: Classes e Objetos**  
+**Capítulo 8: Classes e Objetos**  
 Material didático: Criar material baseado nos Capítulos 9 do livro Curso Intensivo de Python (somente tópicos listados abaixo)  
 Vídeos YouTube: #37  
 YouTube Playlist: https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_  
@@ -87,7 +92,7 @@ Tópicos:
 - Definindo Métodos
 - Exercícios práticos  
 
-**Encontro 9: Arquivos e Exceções**  
+**Capítulo 9: Arquivos e Exceções**  
 Material didático: Criar material baseado nos Capítulos 10 do livro Curso Intensivo de Python (somente tópicos listados abaixo)  
 Vídeos YouTube: #41, #43, #44, #45  
 YouTube Playlist: https://www.youtube.com/playlist?list=PLiu4wMrYDH6IvwMPVABUF4W0MFESxw0S_  
@@ -97,7 +102,7 @@ Tópicos:
 - O que são Exceções?
 - Exercícios práticos  
 
-**Encontro 10: Projeto Prático - Minidrones em Python**  
+**Capítulo 10: Projeto Prático - Minidrones em Python**  
 Material didático: Criar material  
 Tópicos:  
 - Apresentação da We Robotics / Flying Labs / Brazil Flying Labs
@@ -109,7 +114,7 @@ Tópicos:
 - Como programar um roteiro de voo?
 - Desafio prático 1 e 2 em grupo  
 
-**Encontro 11: Apresentação dos Projetos - Minidrones em Python**  
+**Capítulo 11: Apresentação dos Projetos - Minidrones em Python**  
 Material didático: Criar material  
 Tópicos:  
 - Desafio projeto final em grupo
