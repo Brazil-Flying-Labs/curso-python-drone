@@ -10,7 +10,7 @@ Tópicos:
 - Lógica de programação
 - História e importância do Python
 - Configuração do ambiente Python - Repl.it  
-
+  
   
 **Encontro 2: Variáveis e Tipos de Dados**  
 Material didático: Coletivo min@ Capítulo 2  
