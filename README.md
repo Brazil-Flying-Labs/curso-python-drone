@@ -107,8 +107,6 @@ Material didático: Criar material
 Tópicos:  
 - Apresentação da We Robotics / Flying Labs / Brazil Flying Labs
 - Fundamentos da dinâmica dos drones
-- Apresentação da We Robotics / Flying Labs / Brazil Flying Labs
-- Fundamentos da dinâmica dos drones
 - O minidrone Tello - Diagrama de componentes
 - Utilizando a Biblioteca Tello em Python
 - Como programar um roteiro de voo?
