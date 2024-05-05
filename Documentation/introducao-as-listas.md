@@ -216,6 +216,7 @@ Este código imprimirá o número total de caracteres no texto, incluindo espaç
 Para saber o número de elementos em uma lista em Python, você pode usar a mesma função `len()`. Aqui está como você pode fazer isso:
 
 ```python
+# Número de elementos em uma lista
 lista = ["Python", "é", "uma", "linguagem", "de", "programação"]
 num_elementos = len(lista)
 print("O número de elementos na lista é:", num_elementos)
