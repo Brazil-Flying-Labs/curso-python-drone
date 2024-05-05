@@ -221,7 +221,7 @@ num_elementos = len(lista)
 print("O número de elementos na lista é:", num_elementos)
 ```
 
-Este código calculará e imprimirá o número total de elementos na lista `lista_de_texto`.
+Este código calculará e imprimirá o número total de elementos na lista `lista`.
 
 ### Faça agora mesmo !
 
