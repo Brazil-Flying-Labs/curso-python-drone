@@ -195,6 +195,34 @@ Este código demonstra como utilizar o operador de fatiamento : em listas em Pyt
 
 Note que quando utilizamos o operador de fatiamento `[:]` em uma lista, o segundo índice após os dois pontos não é incluído no resultado. Por exemplo, ao obter os três primeiros pensadores de uma lista, estamos acessando os elementos com índices 0, 1 e 2 da lista, e não incluímos o índice 3. Da mesma forma, ao pegar uma parte do meio da lista, do segundo até o quarto elemento, inclusive, o último elemento não é incluído no resultado. Isso se deve ao fato de que o operador de fatiamento define um intervalo semiaberto, onde o último elemento especificado não é incluído. Essa convenção é adotada para facilitar a manipulação de intervalos e evitar ambiguidades durante a operação de fatiamento de listas.
 
+### Número de elementos de uma lista
+
+Para calcular o número de caracteres em um texto em Python, você pode usar a função `len()`, que retorna o comprimento de uma sequência de caracteres, como uma string. Aqui está um exemplo de como fazer isso:
+
+```python
+# Número de caracteres de uma string
+texto = "Este é um exemplo de texto em Python."
+num_caracteres = len(texto)
+print("O número de caracteres no texto é:", num_caracteres)
+
+# Número de caracteres de uma string dentro de uma lista
+lista = ["Este é um exemplo de texto em Python.", "João é um bom menino", "Maria é uma boa menina"]
+print("O número de caracteres do primeiro elemento da lista, índice 0, é :", len(lista[0]))
+print("O número de caracteres do segundo elemento da lista, índice 1, é :", len(lista[1]))
+```
+
+Este código imprimirá o número total de caracteres no texto, incluindo espaços e pontuação.
+
+Para saber o número de elementos em uma lista em Python, você pode usar a mesma função `len()`. Aqui está como você pode fazer isso:
+
+```python
+lista = ["Python", "é", "uma", "linguagem", "de", "programação"]
+num_elementos = len(lista)
+print("O número de elementos na lista é:", num_elementos)
+```
+
+Este código calculará e imprimirá o número total de elementos na lista `lista_de_texto`.
+
 ### Faça agora mesmo !
 
 #### Exercício 3.2:
