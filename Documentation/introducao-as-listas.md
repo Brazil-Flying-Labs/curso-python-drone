@@ -195,7 +195,7 @@ Este código demonstra como utilizar o operador de fatiamento : em listas em Pyt
 
 Note que quando utilizamos o operador de fatiamento `[:]` em uma lista, o segundo índice após os dois pontos não é incluído no resultado. Por exemplo, ao obter os três primeiros pensadores de uma lista, estamos acessando os elementos com índices 0, 1 e 2 da lista, e não incluímos o índice 3. Da mesma forma, ao pegar uma parte do meio da lista, do segundo até o quarto elemento, inclusive, o último elemento não é incluído no resultado. Isso se deve ao fato de que o operador de fatiamento define um intervalo semiaberto, onde o último elemento especificado não é incluído. Essa convenção é adotada para facilitar a manipulação de intervalos e evitar ambiguidades durante a operação de fatiamento de listas.
 
-### Número de elementos de uma lista
+### Contagem de Caracteres e Elementos em Python
 
 Para calcular o número de caracteres em um texto em Python, você pode usar a função `len()`, que retorna o comprimento de uma sequência de caracteres, como uma string. Aqui está um exemplo de como fazer isso:
 
