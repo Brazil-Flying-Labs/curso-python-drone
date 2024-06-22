@@ -343,3 +343,4 @@ Agora vamos criar uma classe chamada `Pessoa`. Nela, podemos definir atributos c
 
 Vamos criar uma classe chamada Funcionário. Nela, definiremos atributos como nome e salário, comuns a todos os funcionários. Em seguida, criaremos subclasses como Gerente e Vendedor, que herdarão esses atributos da classe Funcionário. Cada uma dessas subclasses terá métodos específicos para calcular bônus ou comissão, de acordo com o tipo de funcionário. Podemos então criar instâncias dessas subclasses e testar seus métodos.
 
+Lembre-se de praticar esses exercícios para fortalecer seu conhecimento sobre listas em Python. Se tiver alguma dúvida, não hesite em perguntar!
