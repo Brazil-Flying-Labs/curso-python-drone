@@ -280,3 +280,4 @@ Um desafio comum ao lidar com arquivos de texto em Python é buscar por uma pala
 
 4. Exibição da Linha: Se a palavra-chave for encontrada em uma linha, exiba essa linha para o usuário. Caso contrário, informe que a palavra não foi encontrada.
 
+Lembre-se de praticar esses exercícios para fortalecer seu conhecimento sobre listas em Python. Se tiver alguma dúvida, não hesite em perguntar!
