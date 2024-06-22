@@ -339,4 +339,4 @@ Esses são os valores comumente utilizados para classificar as diferentes faixas
 
 Por fim, o programa deve imprimir o valor do IMC calculado e a classificação correspondente, para que o usuário possa avaliar sua condição física.
 
-
+Lembre-se de praticar esses exercícios para fortalecer seu conhecimento sobre listas em Python. Se tiver alguma dúvida, não hesite em perguntar!
