@@ -130,7 +130,7 @@ Além disso, a capacidade de definir valores padrão para os parâmetros de uma 
 
 ### Faça agora mesmo !
 
-#### Exercício 7.1: 
+#### Exercício 1: 
 
 Neste exercício, você será desafiado a criar uma função em Python chamada `calcular_area_retangulo`. Esta função terá a importante tarefa de calcular a área de um retângulo com base e altura fornecidas como argumentos.
 
@@ -181,7 +181,7 @@ Note também que o nome do parâmetro na definição da função não precisa se
 
 ### Faça agora mesmo !
 
-#### Exercício 7.2: 
+#### Exercício 2: 
 
 Imagine que você é um programador e está desenvolvendo um software para ajudar os alunos a calcular suas médias em diferentes disciplinas. Sua tarefa é criar uma função em Python chamada `calcular_media` que aceita uma lista de notas como entrada e retorna a média dessas notas.
 
@@ -262,11 +262,11 @@ Renomear funções ao importar oferece flexibilidade e clareza ao código. Essa 
 
 ### Faça agora mesmo !
 
-#### Exercício 7.3: 
+#### Exercício 3: 
 
-Neste exercício, você vai organizar as funções criadas nos exercícios 7.1 e 7.2 em um módulo Python chamado `minhas_funcoes.py`. Depois, você vai importar as duas funções desse módulo e criar um código para chamá-las.
+Neste exercício, você vai organizar as funções criadas nos exercícios 1 e 2 em um módulo Python chamado `minhas_funcoes.py`. Depois, você vai importar as duas funções desse módulo e criar um código para chamá-las.
 
-Para começar, copie as funções que você desenvolveu nos exercícios 7.1 e 7.2 para um arquivo Python chamado `minhas_funcoes.py`. Certifique-se de que cada função esteja definida corretamente no arquivo.
+Para começar, copie as funções que você desenvolveu nos exercícios 1 e 2 para um arquivo Python chamado `minhas_funcoes.py`. Certifique-se de que cada função esteja definida corretamente no arquivo.
 
 Depois de organizar as funções em um módulo, você vai importar essas funções em `main.py`. Utilize a sintaxe `from minhas_funcoes import nome_da_funcao` para importar cada função individualmente.
 
@@ -292,7 +292,7 @@ O trabalho de Turing na quebra do código Enigma foi uma demonstração notável
 
 Agora é hora de praticar o que aprendemos! Aqui estão alguns exercícios para você fazer para testar seus conhecimentos.
 
-#### Exercício 7.4:
+#### Exercício 4:
 
 Neste exercício, você vai criar uma função em Python chamada `resumo_sanduiche` que aceita uma lista de ingredientes como argumento. Essa função deve iterar sobre os elementos dessa lista e exibir um resumo do sanduíche criado.
 
@@ -302,7 +302,7 @@ Por exemplo, se você fornecer uma lista de ingredientes como `["pão", "queijo"
 
 Depois de criar a função `resumo_sanduiche`, teste-a com diferentes conjuntos de ingredientes para garantir que esteja funcionando corretamente. 
 
-#### Exercício 7.5:
+#### Exercício 5:
 
 Neste exercício, você vai criar um jogo de adivinhação em Python. O objetivo do jogo é que o jogador tente adivinhar um número secreto escolhido aleatoriamente pelo computador.
 
@@ -316,7 +316,7 @@ O jogo deve continuar até que o jogador adivinhe corretamente o número secreto
 
 Ao final do jogo, o programa deve informar ao jogador se ele ganhou ou perdeu, além de mostrar o número secreto e o número de tentativas que ele utilizou.
 
-#### Exercício 7.6:
+#### Exercício 6:
 
 Neste exercício, você vai criar um programa em Python que calcula o Índice de Massa Corporal (IMC) de uma pessoa. O IMC é uma medida usada para avaliar se uma pessoa está com peso adequado em relação à sua altura.
 
