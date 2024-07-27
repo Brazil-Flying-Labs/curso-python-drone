@@ -69,7 +69,7 @@ Neste exemplo, utilizamos a lista amigos contendo os nomes de alguns amigos. Em 
 
 ### Faça agora mesmo !
 
-#### Exercício 3.1:
+#### Exercício 1:
 
 Imagine que você adora veículos e está criando uma lista para representar diferentes exemplos de carros ou motos que você gostaria de possuir um dia. Sua tarefa é criar uma lista chamada `veiculos_favoritos` e preenchê-la com vários exemplos de veículos dos quais você gosta.
 
@@ -226,17 +226,17 @@ Este código calculará e imprimirá o número total de elementos na lista `list
 
 ### Faça agora mesmo !
 
-#### Exercício 3.2:
+#### Exercício 2:
 
 Você está organizando um jantar para seus amigos e deseja enviar convites para todos eles. No entanto, sua lista de amigos não está em ordem alfabética e você prefere que os convites sejam enviados nessa ordem. Sua tarefa é criar uma lista de 7 nomes de amigos e, em seguida, ordená-la em ordem alfabética usando o método sort(). Depois de ordenar a lista, imprima-a para garantir que os convites serão enviados na ordem correta.
 
 Certifique-se de que os nomes estejam corretamente ordenados em ordem alfabética ao imprimir a lista final. Isso garantirá que os convites sejam enviados aos seus amigos na ordem desejada.
 
-#### Exercício 3.3:
+#### Exercício 3:
 
 Você descobriu de última hora que o local alugado para o jantar permite apenas 5 pessoas, e você precisa remover duas pessoas da sua lista de convidados. No entanto, você quer fazer isso sem parecer indelicado. Decidiu-se que a maneira mais justa de fazer isso é remover as últimas pessoas da lista, pela ordem alfabética, ou seja, as duas últimas da lista. Sua tarefa é usar o fatiamento de lista para remover essas duas últimas pessoas da sua lista de amigos e, em seguida, imprimir a lista atualizada para verificar as alterações.
 
-#### Exercício 3.4:
+#### Exercício 4:
 
 Apesar de todos os preparativos, um de seus amigos avisou de última hora que não conseguirá comparecer ao jantar. Você precisa remover esse amigo da lista e inserir outra pessoa na posição correta na lista em ordem alfabética, para evitar a necessidade de reordenar a lista inteira. Sua tarefa é usar métodos de manipulação de lista para realizar essa operação e, em seguida, imprimir a lista atualizada para verificar as alterações.
 
@@ -258,19 +258,19 @@ Embora a história da maçã seja muitas vezes romantizada e simplificada, ela n
 
 Agora é hora de praticar o que aprendemos! Aqui estão alguns exercícios para você fazer para testar seus conhecimentos.
 
-#### Exercício 3.5:
+#### Exercício 5:
 Escreva um programa Python que crie uma lista chamada "frutas" contendo os seguintes elementos: "maçã", "banana", "laranja", "uva" e "abacaxi". Em seguida, imprima a lista na tela. 
 
-#### Exercício 3.6:
+#### Exercício 6:
 Modifique o programa anterior para adicionar uma fruta à lista e também remova uma fruta existente. Após cada operação, imprima a lista atualizada na tela.
  
-#### Exercício 3.7:
+#### Exercício 7:
 Crie uma lista de números inteiros aleatórios. Em seguida, ordene a lista em ordem crescente e imprima-a. Depois, fatie a lista para imprimir apenas os três primeiros elementos e os três últimos elementos.
 
-#### Exercício 3.8:
+#### Exercício 8:
 Escreva um programa que peça ao usuário para digitar três nomes e os adicione a uma lista. Em seguida, ordene a lista em ordem alfabética e imprima-a.
 
-#### Exercício 3.9:
+#### Exercício 9:
 Escreva um programa que crie uma lista com cinco palavras e imprima o comprimento de cada palavra.
 
 Lembre-se de praticar esses exercícios para fortalecer seu conhecimento sobre listas em Python. Se tiver alguma dúvida, não hesite em perguntar!
