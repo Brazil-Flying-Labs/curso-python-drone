@@ -144,15 +144,15 @@ Este exemplo demonstra como podemos adicionar funcionalidades dinâmicas e inter
 
 ### Faça agora mesmo !
 
-#### Exercício 8.1:
+#### Exercício 1:
 
 Crie uma classe `Animal` com atributos `nome` e `idade`. Em seguida, crie um objeto dessa classe e imprima suas informações.
 
-#### Exercício 8.2:
+#### Exercício 2:
 
 Adicione um método `fazer_som` à classe `Animal` que imprima um som característico do animal.
 
-#### Exercício 8.3:
+#### Exercício 3:
 
 Crie uma classe `Circulo` com um atributo `raio` e métodos para calcular a área e o perímetro do círculo. Em seguida, crie um objeto dessa classe e imprima essas informações.
 
@@ -291,7 +291,7 @@ Este é apenas um vislumbre das possibilidades que a programação orientada a o
 
 ### Faça agora mesmo !
 
-#### Exercício 8.4:
+#### Exercício 4:
 
 **Exercício de Herança: Animal e seus Tipos**
 
@@ -331,15 +331,15 @@ Uma curiosidade fascinante sobre Nikola Tesla, o cientista e inventor, é que el
 
 Agora é hora de praticar o que aprendemos! Aqui estão alguns exercícios para você fazer para testar seus conhecimentos.
 
-#### Exercício 8.5:
+#### Exercício 5:
 
 Vamos criar uma classe chamada `ContaBancaria`. Nela, podemos definir características comuns a todas as contas bancárias, como o número da conta e o saldo disponível. Em seguida, adicionaremos métodos para realizar operações como depositar dinheiro, sacar e verificar o saldo atual. Após criar a classe, podemos instanciar objetos dela e testar seus métodos. Por exemplo, podemos criar uma conta para Maria, depositar R$100 nela e depois sacar R$50 para ver o saldo restante.
 
-#### Exercício 8.6:
+#### Exercício 6:
 
 Agora vamos criar uma classe chamada `Pessoa`. Nela, podemos definir atributos como nome, idade e profissão, características comuns a todas as pessoas. Em seguida, adicionaremos métodos para modificar a idade e a profissão da pessoa. Podemos então instanciar objetos dessa classe e testar seus métodos. Por exemplo, podemos criar uma pessoa chamada João, com 30 anos de idade e que trabalha como professor. Em seguida, podemos modificar sua idade para 31 anos e sua profissão para engenheiro, e verificar se as alterações foram feitas corretamente.
 
-#### Exercício 8.7:
+#### Exercício 7:
 
 Vamos criar uma classe chamada Funcionário. Nela, definiremos atributos como nome e salário, comuns a todos os funcionários. Em seguida, criaremos subclasses como Gerente e Vendedor, que herdarão esses atributos da classe Funcionário. Cada uma dessas subclasses terá métodos específicos para calcular bônus ou comissão, de acordo com o tipo de funcionário. Podemos então criar instâncias dessas subclasses e testar seus métodos.
 
