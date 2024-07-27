@@ -101,11 +101,11 @@ Dessa forma, ao final do loop, `pi_string` conterá todas as linhas do arquivo c
 
 ### Faça agora mesmo !
 
-#### Exercício 8.1: 
+#### Exercício 1: 
 
 Crie um arquivo de texto chamado "introducao.txt" e escreva algumas frases interessantes sobre um tema que você goste. Em seguida, escreva um programa Python que abra o arquivo "introducao.txt", leia seu conteúdo e o exiba na tela. Faça uma pequena alteração no arquivo "introducao.txt" e observe como a mudança afeta a saída do programa.
 
-#### Exercício 8.2: 
+#### Exercício 2: 
 
 Busque um texto interessante na internet, copie e cole esse texto no arquivo "texto.txt". Em seguida, escreva um programa Python que abra o arquivo "texto.txt", leia seu conteúdo e conte o número total de palavras no texto. VOcê pode utilizar a função `open()` para abrir o arquivo, `read()` para ler seu conteúdo e `split()` para dividir o texto em palavras. Depois, basta utilizar a função `len()` para contar o número de palavras resultantes da divisão.
 
@@ -152,9 +152,9 @@ A beleza deste programa vai além da simples exibição do número Pi. Ele é um
 
 ### Faça agora mesmo !
 
-#### Exercício 8.3: 
+#### Exercício 3: 
 
-Agora que você aprendeu sobre abertura de arquivos e leitura de conteúdo em Python, é hora de tornar seus programas mais robustos adicionando tratamento de exceções! Reescreva os exercícios 8.1 e 8.2 anteriores, mas desta vez adicione blocos de tratamento de exceções para lidar com possíveis erros que possam ocorrer durante a execução do programa.
+Agora que você aprendeu sobre abertura de arquivos e leitura de conteúdo em Python, é hora de tornar seus programas mais robustos adicionando tratamento de exceções! Reescreva os exercícios 1 e 2 anteriores, mas desta vez adicione blocos de tratamento de exceções para lidar com possíveis erros que possam ocorrer durante a execução do programa.
 
 ### Escrevendo em um novo arquivo
 
@@ -246,27 +246,27 @@ Essa curiosidade sobre a jornada do Papiro de Rhind através do tempo e das mão
 
 Agora é hora de praticar o que aprendemos! Aqui estão alguns exercícios para você fazer para testar seus conhecimentos.
 
-#### Exercício 8.5:
+#### Exercício 4:
 
 Escreva um programa Python que solicite ao usuário que insira uma lista de números inteiros separados por vírgula. Em seguida, armazene esses números em um arquivo de texto chamado "numeros.txt", um por linha. Certifique-se de lidar com possíveis erros de entrada do usuário.
 
 Neste exemplo, a `função split(',')` pode ser utilizada para dividir a entrada do usuário em uma lista de strings, utilizando a vírgula como delimitador, criando assim a lista numeros com os números lidos. VOcê pode usar essa lista para escrever os números no arquivo "numeros.txt".
 
-#### Exercício 8.6:
+#### Exercício 5:
 
 Desenvolva um programa que leia o conteúdo do arquivo "numeros.txt" criado no exercício anterior e exiba a soma de todos os números presentes no arquivo. Caso o arquivo não exista ou ocorra algum problema durante a leitura, exiba uma mensagem amigável ao usuário.
 
 Uma dica útil para você resolver esse problema é utilizar a função int() para converter as strings lidas do arquivo em números inteiros, e depois realizar a soma dos números.
 
-#### Exercício 8.7:
+#### Exercício 6:
 
 Escreva um programa Python que tente abrir um arquivo chamado "dados.txt" para escrita. Em seguida, continue o programa solicitando ao usuário que insira novos dados e escreva esses dados no arquivo. 
 
-#### Exercício 8.8:
+#### Exercício 7:
 
 Crie um programa que leia um arquivo de texto chamado "texto.txt" e conte o número de palavras presentes no arquivo. Em seguida, exiba esse número para o usuário. Certifique-se de lidar adequadamente com a abertura do arquivo e possíveis erros de leitura.
 
-#### Exercício 8.9:
+#### Exercício 8:
 
 Desenvolva um programa que permita ao usuário buscar por uma palavra-chave em um arquivo de texto. O programa deve solicitar ao usuário que insira a palavra-chave e, em seguida, verificar se ela está presente no arquivo "texto.txt". Se a palavra-chave for encontrada, o programa deve exibir a linha em que ela está presente. Caso contrário, deve informar que a palavra não foi encontrada.
 
