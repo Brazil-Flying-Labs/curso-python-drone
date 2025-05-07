@@ -102,7 +102,7 @@ Tópicos:
 - O que são Exceções?
 - Exercícios práticos  
 
-**Projeto Prático - Minidrones em Python**  
+**Projeto Prático I e II - Minidrones em Python**  
 Material didático: Criar material  
 Tópicos:  
 - Apresentação da We Robotics / Flying Labs / Brazil Flying Labs
@@ -111,10 +111,3 @@ Tópicos:
 - Utilizando a Biblioteca Tello em Python
 - Como programar um roteiro de voo?
 - Desafio prático 1 e 2 em grupo  
-
-**Apresentação dos Projetos - Minidrones em Python**  
-Material didático: Criar material  
-Tópicos:  
-- Desafio projeto final em grupo
-- Apresentação de Projeto Final
-- Encerramento e certificação
